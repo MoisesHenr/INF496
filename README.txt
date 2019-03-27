@@ -1,0 +1,1 @@
+Esse projeto visa estudar conceitos de Fog Computing, ou Computação em Névoa.
