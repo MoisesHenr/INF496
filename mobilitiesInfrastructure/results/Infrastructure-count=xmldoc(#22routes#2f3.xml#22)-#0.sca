@@ -1,0 +1,2191 @@
+version 2
+run Infrastructure-3-20190510-21:39:21-6073
+attr configname Infrastructure
+attr datetime 20190510-21:39:21
+attr experiment Infrastructure
+attr inifile omnetpp.ini
+attr iterationvars "$count=xmldoc(\"routes/3.xml\")"
+attr iterationvarsf count=xmldoc(#22routes#2f3.xml#22)-
+attr measurement "$count=xmldoc(\"routes/3.xml\")"
+attr network InfrastructureShowcaseA
+attr processid 6073
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 3
+attr seedset 3
+itervar count "xmldoc(\"routes/3.xml\")"
+param *.visualizer.*.dataLinkVisualizer.fadeOutAnimationSpeed 0.000005
+param **.constraintAreaMinX 0m
+param **.constraintAreaMaxX 640m
+param **.constraintAreaMinY 0m
+param **.constraintAreaMaxY 420m
+param **.constraintAreaMinZ 0m
+param **.constraintAreaMaxZ 0m
+param *.host1.mobility.typename "\"TurtleMobility\""
+param *.host1.mobility.turtleScript "xmldoc(\"routes/3.xml\")"
+param *.host1.mobility.outputFile "\"posTime.txt\""
+param *.host1.numApps 1
+param *.host1.app[0].typename "\"UdpBasicApp\""
+param *.host1.app[0].destAddresses "\"standardHost\""
+param *.host1.app[0].destPort 1000
+param *.host1.app[0].messageLength 100Byte
+param *.host1.app[0].sendInterval 100ms
+param **.arp.typename "\"GlobalArp\""
+param **.netmaskRoutes "\"\""
+param *.visualizer.*.dataLinkVisualizer.displayLinks true
+param *.visualizer.*.dataLinkVisualizer.activityLevel "\"peer\""
+param *.visualizer.*.ieee80211Visualizer.displayAssociations true
+param **.radio.transmitter.power 2.0mW
+param *.AP*.wlan[*].radio.displayCommunicationRange true
+param **.radioMedium.recordCommunicationLog true
+
+scalar InfrastructureShowcaseA.radioMedium.propagation "Arrival computation count" 60906
+scalar InfrastructureShowcaseA.radioMedium "transmission count" 20302
+scalar InfrastructureShowcaseA.radioMedium "signal send count" 60906
+scalar InfrastructureShowcaseA.radioMedium "reception computation count" 60903
+scalar InfrastructureShowcaseA.radioMedium "interference computation count" 203014
+scalar InfrastructureShowcaseA.radioMedium "reception decision computation count" 21145
+scalar InfrastructureShowcaseA.radioMedium "listening decision computation count" 120966
+scalar InfrastructureShowcaseA.radioMedium "reception cache hit" 80.164925890825
+attr unit %
+scalar InfrastructureShowcaseA.radioMedium "interference cache hit" 66.666666666667
+attr unit %
+scalar InfrastructureShowcaseA.radioMedium "noise cache hit" 0
+attr unit %
+scalar InfrastructureShowcaseA.radioMedium "snir cache hit" 50
+attr unit %
+scalar InfrastructureShowcaseA.radioMedium "reception decision cache hit" 50
+attr unit %
+scalar InfrastructureShowcaseA.radioMedium "reception result cache hit" 0
+attr unit %
+scalar InfrastructureShowcaseA.host1.lo[0].lo rcvdPkFromHl:count 0
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packets received from higher layer, count"
+scalar InfrastructureShowcaseA.host1.lo[0].lo rcvdPkFromHl:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packets received from higher layer, sum(packetBytes)"
+scalar InfrastructureShowcaseA.host1.lo[0].lo passedUpPk:count 0
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, count"
+scalar InfrastructureShowcaseA.host1.lo[0].lo passedUpPk:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, sum(packetBytes)"
+scalar InfrastructureShowcaseA.host1.wlan[0].agent dropConfirm:count 0
+attr title "dropped confirms, count"
+scalar InfrastructureShowcaseA.host1.wlan[0].agent acceptConfirm:count 6
+attr title "accepted confirms, count"
+scalar InfrastructureShowcaseA.host1.wlan[0].agent sentRequest:count 6
+attr title "sent requests, count"
+scalar InfrastructureShowcaseA.host1.wlan[0].mac rcvdPkFromLl:count 10899
+attr interpolationmode none
+attr source packetReceivedFromLower
+attr title "packets received from lower layer, count"
+scalar InfrastructureShowcaseA.host1.wlan[0].mac rcvdPkFromLl:sum(packetBytes) 551738
+attr interpolationmode none
+attr source packetReceivedFromLower
+attr title "packets received from lower layer, sum(packetBytes)"
+scalar InfrastructureShowcaseA.host1.wlan[0].mac sentDownPk:count 5813
+attr interpolationmode none
+attr source packetSentToLower
+attr title "packets sent to lower layer, count"
+scalar InfrastructureShowcaseA.host1.wlan[0].mac sentDownPk:sum(packetBytes) 517892
+attr interpolationmode none
+attr source packetSentToLower
+attr title "packets sent to lower layer, sum(packetBytes)"
+scalar InfrastructureShowcaseA.host1.wlan[0].mac rcvdPkFromHl:count 2900
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packets received from higher layer, count"
+scalar InfrastructureShowcaseA.host1.wlan[0].mac rcvdPkFromHl:sum(packetBytes) 394400
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packets received from higher layer, sum(packetBytes)"
+scalar InfrastructureShowcaseA.host1.wlan[0].mac passedUpPk:count 2887
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, count"
+scalar InfrastructureShowcaseA.host1.wlan[0].mac passedUpPk:sum(packetBytes) 184768
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, sum(packetBytes)"
+scalar InfrastructureShowcaseA.host1.wlan[0].mac packetDropIncorrectlyReceived:count 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packet drop: incorrectly received, count"
+scalar InfrastructureShowcaseA.host1.wlan[0].mac packetDropIncorrectlyReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packet drop: incorrectly received, sum(packetBytes)"
+scalar InfrastructureShowcaseA.host1.wlan[0].mac packetDropNotAddressedToUs:count 0
+attr interpolationmode none
+attr source packetDropReasonIsNotAddressedToUs(packetDropped)
+attr title "packet drop: not addressed to us, count"
+scalar InfrastructureShowcaseA.host1.wlan[0].mac packetDropNotAddressedToUs:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsNotAddressedToUs(packetDropped)
+attr title "packet drop: not addressed to us, sum(packetBytes)"
+scalar InfrastructureShowcaseA.host1.wlan[0].mac packetDropQueueOverflow:count 0
+attr interpolationmode none
+attr source packetDropReasonIsQueueOverflow(packetDropped)
+attr title "packet drop: queue overflow, count"
+scalar InfrastructureShowcaseA.host1.wlan[0].mac packetDropQueueOverflow:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsQueueOverflow(packetDropped)
+attr title "packet drop: queue overflow, sum(packetBytes)"
+scalar InfrastructureShowcaseA.host1.wlan[0].mac packetDropRetryLimitReached:count 3
+attr interpolationmode none
+attr source packetDropReasonIsRetryLimitReached(packetDropped)
+attr title "packet drop: retry limit reached, count"
+scalar InfrastructureShowcaseA.host1.wlan[0].mac packetDropRetryLimitReached:sum(packetBytes) 492
+attr interpolationmode none
+attr source packetDropReasonIsRetryLimitReached(packetDropped)
+attr title "packet drop: retry limit reached, sum(packetBytes)"
+scalar InfrastructureShowcaseA.host1.wlan[0].mac linkBroken:count 3
+attr interpolationmode none
+attr source linkBroken
+attr title "link break, count"
+statistic InfrastructureShowcaseA.host1.wlan[0].radio radioChannel:histogram
+field count 7
+field mean 0
+field stddev 0
+field min 0
+field max 0
+field sum 0
+field sqrsum 0
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, histogram"
+bin	-inf	0
+bin	-0.5	0
+bin	-0.48	0
+bin	-0.46	0
+bin	-0.44	0
+bin	-0.42	0
+bin	-0.4	0
+bin	-0.38	0
+bin	-0.36	0
+bin	-0.34	0
+bin	-0.32	0
+bin	-0.3	0
+bin	-0.28	0
+bin	-0.26	0
+bin	-0.24	0
+bin	-0.22	0
+bin	-0.2	0
+bin	-0.18	0
+bin	-0.16	0
+bin	-0.14	0
+bin	-0.12	0
+bin	-0.1	0
+bin	-0.08	0
+bin	-0.06	0
+bin	-0.04	0
+bin	-0.02	0
+bin	0	7
+bin	0.02	0
+bin	0.04	0
+bin	0.06	0
+bin	0.08	0
+bin	0.1	0
+bin	0.12	0
+bin	0.14	0
+bin	0.16	0
+bin	0.18	0
+bin	0.2	0
+bin	0.22	0
+bin	0.24	0
+bin	0.26	0
+bin	0.28	0
+bin	0.3	0
+bin	0.32	0
+bin	0.34	0
+bin	0.36	0
+bin	0.38	0
+bin	0.4	0
+bin	0.42	0
+bin	0.44	0
+bin	0.46	0
+bin	0.48	0
+bin	0.5	0
+scalar InfrastructureShowcaseA.host1.wlan[0].radio radioMode:count 11628
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, count"
+scalar InfrastructureShowcaseA.host1.wlan[0].radio receptionState:count 33448
+attr interpolationmode sample-hold
+attr source receptionStateChanged
+attr title "Radio reception state, count"
+scalar InfrastructureShowcaseA.host1.wlan[0].radio transmissionState:count 23250
+attr interpolationmode sample-hold
+attr source transmissionStateChanged
+attr title "Radio transmission state, count"
+statistic InfrastructureShowcaseA.host1.wlan[0].radio minSnir:histogram
+field count 10899
+field mean 1723.2596477538
+field stddev 3751.8467598381
+field min 316.45553442508
+field max 39128.668770919
+field sum 18781806.900868
+field sqrsum 185770037027.4
+attr source minimumSnir(packetSentToUpper)
+attr title "Min SNIR, histogram"
+bin	-inf	0
+bin	0	5575
+bin	800	2831
+bin	1600	1252
+bin	2400	503
+bin	3200	96
+bin	4000	78
+bin	4800	60
+bin	5600	48
+bin	6400	36
+bin	7200	36
+bin	8000	30
+bin	8800	26
+bin	9600	22
+bin	10400	24
+bin	11200	12
+bin	12000	24
+bin	12800	12
+bin	13600	16
+bin	14400	14
+bin	15200	12
+bin	16000	12
+bin	16800	12
+bin	17600	8
+bin	18400	10
+bin	19200	6
+bin	20000	12
+bin	20800	6
+bin	21600	12
+bin	22400	0
+bin	23200	12
+bin	24000	6
+bin	24800	6
+bin	25600	6
+bin	26400	12
+bin	27200	0
+bin	28000	6
+bin	28800	6
+bin	29600	6
+bin	30400	6
+bin	31200	6
+bin	32000	0
+bin	32800	12
+bin	33600	4
+bin	34400	2
+bin	35200	4
+bin	36000	8
+bin	36800	4
+bin	37600	2
+bin	38400	6
+bin	39200	0
+statistic InfrastructureShowcaseA.host1.wlan[0].radio packetErrorRate:histogram
+field count 10899
+field mean 0
+field stddev 0
+field min 0
+field max 0
+field sum 0
+field sqrsum 0
+attr source packetErrorRate(packetSentToUpper)
+attr title "Packet error rate, histogram"
+bin	-inf	0
+bin	-0.5	0
+bin	-0.48	0
+bin	-0.46	0
+bin	-0.44	0
+bin	-0.42	0
+bin	-0.4	0
+bin	-0.38	0
+bin	-0.36	0
+bin	-0.34	0
+bin	-0.32	0
+bin	-0.3	0
+bin	-0.28	0
+bin	-0.26	0
+bin	-0.24	0
+bin	-0.22	0
+bin	-0.2	0
+bin	-0.18	0
+bin	-0.16	0
+bin	-0.14	0
+bin	-0.12	0
+bin	-0.1	0
+bin	-0.08	0
+bin	-0.06	0
+bin	-0.04	0
+bin	-0.02	0
+bin	0	10899
+bin	0.02	0
+bin	0.04	0
+bin	0.06	0
+bin	0.08	0
+bin	0.1	0
+bin	0.12	0
+bin	0.14	0
+bin	0.16	0
+bin	0.18	0
+bin	0.2	0
+bin	0.22	0
+bin	0.24	0
+bin	0.26	0
+bin	0.28	0
+bin	0.3	0
+bin	0.32	0
+bin	0.34	0
+bin	0.36	0
+bin	0.38	0
+bin	0.4	0
+bin	0.42	0
+bin	0.44	0
+bin	0.46	0
+bin	0.48	0
+bin	0.5	0
+statistic InfrastructureShowcaseA.host1.wlan[0].radio bitErrorRate:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field sum 0
+field sqrsum 0
+attr source bitErrorRate(packetSentToUpper)
+attr title "Bit error rate, histogram"
+bin	-inf	0
+bin	0	0
+bin	1	0
+statistic InfrastructureShowcaseA.host1.wlan[0].radio symbolErrorRate:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field sum 0
+field sqrsum 0
+attr source symbolErrorRate(packetSentToUpper)
+attr title "Symbol error rate, histogram"
+bin	-inf	0
+bin	0	0
+bin	1	0
+scalar InfrastructureShowcaseA.host1.ipv4.ip packetDropAddressResolutionFailed:count 0
+attr interpolationmode none
+attr source packetDropReasonIsAddressResolutionFailed(packetDropped)
+attr title "packet drop: address resolution failed, count"
+scalar InfrastructureShowcaseA.host1.ipv4.ip packetDropAddressResolutionFailed:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsAddressResolutionFailed(packetDropped)
+attr title "packet drop: address resolution failed, sum(packetBytes)"
+scalar InfrastructureShowcaseA.host1.ipv4.ip packetDropHopLimitReached:count 0
+attr interpolationmode none
+attr source packetDropReasonIsHopLimitReached(packetDropped)
+attr title "packet drop: hop limit reached, count"
+scalar InfrastructureShowcaseA.host1.ipv4.ip packetDropHopLimitReached:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsHopLimitReached(packetDropped)
+attr title "packet drop: hop limit reached, sum(packetBytes)"
+scalar InfrastructureShowcaseA.host1.ipv4.ip packetDropForwardingDisabled:count 0
+attr interpolationmode none
+attr source packetDropReasonIsForwardingDisabled(packetDropped)
+attr title "packet drop: forwarding disabled, count"
+scalar InfrastructureShowcaseA.host1.ipv4.ip packetDropForwardingDisabled:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsForwardingDisabled(packetDropped)
+attr title "packet drop: forwarding disabled, sum(packetBytes)"
+scalar InfrastructureShowcaseA.host1.ipv4.ip packetDropNoInterfaceFound:count 0
+attr interpolationmode none
+attr source packetDropReasonIsNoInterfaceFound(packetDropped)
+attr title "packet drop: no interface found, count"
+scalar InfrastructureShowcaseA.host1.ipv4.ip packetDropNoInterfaceFound:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsNoInterfaceFound(packetDropped)
+attr title "packet drop: no interface found, sum(packetBytes)"
+scalar InfrastructureShowcaseA.host1.ipv4.ip packetDropNoRouteFound:count 0
+attr interpolationmode none
+attr source packetDropReasonIsNoRouteFound(packetDropped)
+attr title "packet drop: no route found, count"
+scalar InfrastructureShowcaseA.host1.ipv4.ip packetDropNoRouteFound:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsNoRouteFound(packetDropped)
+attr title "packet drop: no route found, sum(packetBytes)"
+scalar InfrastructureShowcaseA.host1.ipv4.ip packetDropUndefined:count 0
+attr interpolationmode none
+attr source packetDropReasonIsUndefined(packetDropped)
+attr title "packet drop: undefined, count"
+scalar InfrastructureShowcaseA.host1.ipv4.ip packetDropUndefined:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsUndefined(packetDropped)
+attr title "packet drop: undefined, sum(packetBytes)"
+scalar InfrastructureShowcaseA.host1.udp packetReceived:count 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, count"
+scalar InfrastructureShowcaseA.host1.udp packetReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, sum(packetBytes)"
+scalar InfrastructureShowcaseA.host1.udp packetSent:count 2900
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, count"
+scalar InfrastructureShowcaseA.host1.udp packetSent:sum(packetBytes) 313200
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, sum(packetBytes)"
+scalar InfrastructureShowcaseA.host1.udp passedUpPk:count 0
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed up, count"
+scalar InfrastructureShowcaseA.host1.udp droppedPkWrongPort:count 0
+attr interpolationmode none
+attr source packetDropReasonIsNoPortFound(packetDropped)
+attr title "packets dropped (wrong port), count"
+scalar InfrastructureShowcaseA.host1.udp droppedPkBadChecksum:count 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packets dropped (checksum error), count"
+scalar InfrastructureShowcaseA.host1.app[0] "packets sent" 2900
+scalar InfrastructureShowcaseA.host1.app[0] "packets received" 0
+scalar InfrastructureShowcaseA.host1.app[0] packetReceived:count 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, count"
+scalar InfrastructureShowcaseA.host1.app[0] packetReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, sum(packetBytes)"
+statistic InfrastructureShowcaseA.host1.app[0] rcvdPkLifetime:stats
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "received packet lifetime, stats"
+attr unit s
+scalar InfrastructureShowcaseA.host1.app[0] packetSent:count 2900
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, count"
+scalar InfrastructureShowcaseA.host1.app[0] packetSent:sum(packetBytes) 290000
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, sum(packetBytes)"
+scalar InfrastructureShowcaseA.AP3.relayUnit "number of received BPDUs from STP module" 0
+scalar InfrastructureShowcaseA.AP3.relayUnit "number of received frames from network (including BPDUs)" 4963
+scalar InfrastructureShowcaseA.AP3.relayUnit "number of dropped frames (including BPDUs)" 0
+scalar InfrastructureShowcaseA.AP3.relayUnit "number of delivered BPDUs to the STP module" 0
+scalar InfrastructureShowcaseA.AP3.relayUnit "number of dispatched BPDU frames to the network" 0
+scalar InfrastructureShowcaseA.AP3.relayUnit "number of dispatched non-BDPU frames to the network" 4963
+scalar InfrastructureShowcaseA.AP3.wlan[0].mac rcvdPkFromLl:count 5502
+attr interpolationmode none
+attr source packetReceivedFromLower
+attr title "packets received from lower layer, count"
+scalar InfrastructureShowcaseA.AP3.wlan[0].mac rcvdPkFromLl:sum(packetBytes) 490658
+attr interpolationmode none
+attr source packetReceivedFromLower
+attr title "packets received from lower layer, sum(packetBytes)"
+scalar InfrastructureShowcaseA.AP3.wlan[0].mac sentDownPk:count 7869
+attr interpolationmode none
+attr source packetSentToLower
+attr title "packets sent to lower layer, count"
+scalar InfrastructureShowcaseA.AP3.wlan[0].mac sentDownPk:sum(packetBytes) 402380
+attr interpolationmode none
+attr source packetSentToLower
+attr title "packets sent to lower layer, sum(packetBytes)"
+scalar InfrastructureShowcaseA.AP3.wlan[0].mac rcvdPkFromHl:count 2482
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packets received from higher layer, count"
+scalar InfrastructureShowcaseA.AP3.wlan[0].mac rcvdPkFromHl:sum(packetBytes) 158920
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packets received from higher layer, sum(packetBytes)"
+scalar InfrastructureShowcaseA.AP3.wlan[0].mac passedUpPk:count 2481
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, count"
+scalar InfrastructureShowcaseA.AP3.wlan[0].mac passedUpPk:sum(packetBytes) 337416
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, sum(packetBytes)"
+scalar InfrastructureShowcaseA.AP3.wlan[0].mac packetDropIncorrectlyReceived:count 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packet drop: incorrectly received, count"
+scalar InfrastructureShowcaseA.AP3.wlan[0].mac packetDropIncorrectlyReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packet drop: incorrectly received, sum(packetBytes)"
+scalar InfrastructureShowcaseA.AP3.wlan[0].mac packetDropNotAddressedToUs:count 532
+attr interpolationmode none
+attr source packetDropReasonIsNotAddressedToUs(packetDropped)
+attr title "packet drop: not addressed to us, count"
+scalar InfrastructureShowcaseA.AP3.wlan[0].mac packetDropNotAddressedToUs:sum(packetBytes) 48848
+attr interpolationmode none
+attr source packetDropReasonIsNotAddressedToUs(packetDropped)
+attr title "packet drop: not addressed to us, sum(packetBytes)"
+scalar InfrastructureShowcaseA.AP3.wlan[0].mac packetDropQueueOverflow:count 0
+attr interpolationmode none
+attr source packetDropReasonIsQueueOverflow(packetDropped)
+attr title "packet drop: queue overflow, count"
+scalar InfrastructureShowcaseA.AP3.wlan[0].mac packetDropQueueOverflow:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsQueueOverflow(packetDropped)
+attr title "packet drop: queue overflow, sum(packetBytes)"
+scalar InfrastructureShowcaseA.AP3.wlan[0].mac packetDropRetryLimitReached:count 0
+attr interpolationmode none
+attr source packetDropReasonIsRetryLimitReached(packetDropped)
+attr title "packet drop: retry limit reached, count"
+scalar InfrastructureShowcaseA.AP3.wlan[0].mac packetDropRetryLimitReached:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsRetryLimitReached(packetDropped)
+attr title "packet drop: retry limit reached, sum(packetBytes)"
+scalar InfrastructureShowcaseA.AP3.wlan[0].mac linkBroken:count 0
+attr interpolationmode none
+attr source linkBroken
+attr title "link break, count"
+statistic InfrastructureShowcaseA.AP3.wlan[0].radio radioChannel:histogram
+field count 1
+field mean 0
+field stddev -nan
+field min 0
+field max 0
+field sum 0
+field sqrsum 0
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, histogram"
+bin	-inf	0
+bin	-0.5	0
+bin	-0.48	0
+bin	-0.46	0
+bin	-0.44	0
+bin	-0.42	0
+bin	-0.4	0
+bin	-0.38	0
+bin	-0.36	0
+bin	-0.34	0
+bin	-0.32	0
+bin	-0.3	0
+bin	-0.28	0
+bin	-0.26	0
+bin	-0.24	0
+bin	-0.22	0
+bin	-0.2	0
+bin	-0.18	0
+bin	-0.16	0
+bin	-0.14	0
+bin	-0.12	0
+bin	-0.1	0
+bin	-0.08	0
+bin	-0.06	0
+bin	-0.04	0
+bin	-0.02	0
+bin	0	1
+bin	0.02	0
+bin	0.04	0
+bin	0.06	0
+bin	0.08	0
+bin	0.1	0
+bin	0.12	0
+bin	0.14	0
+bin	0.16	0
+bin	0.18	0
+bin	0.2	0
+bin	0.22	0
+bin	0.24	0
+bin	0.26	0
+bin	0.28	0
+bin	0.3	0
+bin	0.32	0
+bin	0.34	0
+bin	0.36	0
+bin	0.38	0
+bin	0.4	0
+bin	0.42	0
+bin	0.44	0
+bin	0.46	0
+bin	0.48	0
+bin	0.5	0
+scalar InfrastructureShowcaseA.AP3.wlan[0].radio radioMode:count 15741
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, count"
+scalar InfrastructureShowcaseA.AP3.wlan[0].radio receptionState:count 26743
+attr interpolationmode sample-hold
+attr source receptionStateChanged
+attr title "Radio reception state, count"
+scalar InfrastructureShowcaseA.AP3.wlan[0].radio transmissionState:count 31476
+attr interpolationmode sample-hold
+attr source transmissionStateChanged
+attr title "Radio transmission state, count"
+statistic InfrastructureShowcaseA.AP3.wlan[0].radio minSnir:histogram
+field count 5502
+field mean 2001.3405813407
+field stddev 4259.899485328
+field min 316.44981353473
+field max 39131.551042077
+field sum 11011375.878537
+field sqrsum 121862750083.77
+attr source minimumSnir(packetSentToUpper)
+attr title "Min SNIR, histogram"
+bin	-inf	0
+bin	0	2132
+bin	640	1400
+bin	1280	866
+bin	1920	394
+bin	2560	218
+bin	3200	56
+bin	3840	44
+bin	4480	34
+bin	5120	30
+bin	5760	24
+bin	6400	24
+bin	7040	16
+bin	7680	16
+bin	8320	16
+bin	8960	12
+bin	9600	16
+bin	10240	8
+bin	10880	12
+bin	11520	12
+bin	12160	8
+bin	12800	8
+bin	13440	8
+bin	14080	4
+bin	14720	8
+bin	15360	8
+bin	16000	8
+bin	16640	0
+bin	17280	8
+bin	17920	8
+bin	18560	4
+bin	19200	4
+bin	19840	4
+bin	20480	8
+bin	21120	0
+bin	21760	8
+bin	22400	0
+bin	23040	8
+bin	23680	0
+bin	24320	4
+bin	24960	4
+bin	25600	4
+bin	26240	0
+bin	26880	8
+bin	27520	0
+bin	28160	4
+bin	28800	4
+bin	29440	4
+bin	30080	0
+bin	30720	8
+bin	31360	0
+bin	32000	0
+bin	32640	4
+bin	33280	4
+bin	33920	4
+bin	34560	0
+bin	35200	0
+bin	35840	8
+bin	36480	0
+bin	37120	4
+bin	37760	0
+bin	38400	0
+bin	39040	4
+bin	39680	0
+statistic InfrastructureShowcaseA.AP3.wlan[0].radio packetErrorRate:histogram
+field count 5502
+field mean 0
+field stddev 0
+field min 0
+field max 0
+field sum 0
+field sqrsum 0
+attr source packetErrorRate(packetSentToUpper)
+attr title "Packet error rate, histogram"
+bin	-inf	0
+bin	-0.5	0
+bin	-0.48	0
+bin	-0.46	0
+bin	-0.44	0
+bin	-0.42	0
+bin	-0.4	0
+bin	-0.38	0
+bin	-0.36	0
+bin	-0.34	0
+bin	-0.32	0
+bin	-0.3	0
+bin	-0.28	0
+bin	-0.26	0
+bin	-0.24	0
+bin	-0.22	0
+bin	-0.2	0
+bin	-0.18	0
+bin	-0.16	0
+bin	-0.14	0
+bin	-0.12	0
+bin	-0.1	0
+bin	-0.08	0
+bin	-0.06	0
+bin	-0.04	0
+bin	-0.02	0
+bin	0	5502
+bin	0.02	0
+bin	0.04	0
+bin	0.06	0
+bin	0.08	0
+bin	0.1	0
+bin	0.12	0
+bin	0.14	0
+bin	0.16	0
+bin	0.18	0
+bin	0.2	0
+bin	0.22	0
+bin	0.24	0
+bin	0.26	0
+bin	0.28	0
+bin	0.3	0
+bin	0.32	0
+bin	0.34	0
+bin	0.36	0
+bin	0.38	0
+bin	0.4	0
+bin	0.42	0
+bin	0.44	0
+bin	0.46	0
+bin	0.48	0
+bin	0.5	0
+statistic InfrastructureShowcaseA.AP3.wlan[0].radio bitErrorRate:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field sum 0
+field sqrsum 0
+attr source bitErrorRate(packetSentToUpper)
+attr title "Bit error rate, histogram"
+bin	-inf	0
+bin	0	0
+bin	1	0
+statistic InfrastructureShowcaseA.AP3.wlan[0].radio symbolErrorRate:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field sum 0
+field sqrsum 0
+attr source symbolErrorRate(packetSentToUpper)
+attr title "Symbol error rate, histogram"
+bin	-inf	0
+bin	0	0
+bin	1	0
+scalar InfrastructureShowcaseA.AP3.eth[0].mac "simulated time" 290
+scalar InfrastructureShowcaseA.AP3.eth[0].mac full-duplex 1
+scalar InfrastructureShowcaseA.AP3.eth[0].mac "frames/sec sent" 8.5551724137931
+scalar InfrastructureShowcaseA.AP3.eth[0].mac "frames/sec rcvd" 8.5586206896552
+scalar InfrastructureShowcaseA.AP3.eth[0].mac "bits/sec sent" 9992.4413793103
+scalar InfrastructureShowcaseA.AP3.eth[0].mac "bits/sec rcvd" 5068.6896551724
+scalar InfrastructureShowcaseA.AP3.eth[0].mac "rx channel idle (%)" 100
+scalar InfrastructureShowcaseA.AP3.eth[0].mac "rx channel utilization (%)" 0
+scalar InfrastructureShowcaseA.AP3.eth[0].mac rxPausePkUnits:count 0
+attr interpolationmode none
+attr title "pause units received, count"
+scalar InfrastructureShowcaseA.AP3.eth[0].mac rxPausePkUnits:sum 0
+attr interpolationmode none
+attr title "pause units received, sum"
+scalar InfrastructureShowcaseA.AP3.eth[0].mac txPausePkUnits:count 0
+attr interpolationmode none
+attr title "pause units sent, count"
+scalar InfrastructureShowcaseA.AP3.eth[0].mac txPausePkUnits:sum 0
+attr interpolationmode none
+attr title "pause units sent, sum"
+scalar InfrastructureShowcaseA.AP3.eth[0].mac rxPkOk:count 2482
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, count"
+scalar InfrastructureShowcaseA.AP3.eth[0].mac rxPkOk:sum(packetBytes) 183740
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, sum(packetBytes)"
+scalar InfrastructureShowcaseA.AP3.eth[0].mac txPk:count 2481
+attr interpolationmode none
+attr source packetSentToLower
+attr title "packets transmitted, count"
+scalar InfrastructureShowcaseA.AP3.eth[0].mac txPk:sum(packetBytes) 362226
+attr interpolationmode none
+attr source packetSentToLower
+attr title "packets transmitted, sum(packetBytes)"
+scalar InfrastructureShowcaseA.AP3.eth[0].mac packetReceivedFromUpper:count 2481
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packet bytes from higher layer, count"
+scalar InfrastructureShowcaseA.AP3.eth[0].mac packetReceivedFromUpper:sum(packetBytes) 362226
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packet bytes from higher layer, sum(packetBytes)"
+scalar InfrastructureShowcaseA.AP3.eth[0].mac passedUpPk:count 2482
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, count"
+scalar InfrastructureShowcaseA.AP3.eth[0].mac passedUpPk:sum(packetBytes) 183740
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, sum(packetBytes)"
+scalar InfrastructureShowcaseA.AP3.eth[0].mac packetDropIncorrectlyReceived:count 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packet drop: incorrectly received, count"
+scalar InfrastructureShowcaseA.AP3.eth[0].mac packetDropIncorrectlyReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packet drop: incorrectly received, sum(packetBytes)"
+scalar InfrastructureShowcaseA.AP3.eth[0].mac packetDropInterfaceDown:count 0
+attr interpolationmode none
+attr source packetDropReasonIsInterfaceDown(packetDropped)
+attr title "packet drop: interface down, count"
+scalar InfrastructureShowcaseA.AP3.eth[0].mac packetDropInterfaceDown:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsInterfaceDown(packetDropped)
+attr title "packet drop: interface down, sum(packetBytes)"
+scalar InfrastructureShowcaseA.AP3.eth[0].mac packetDropNotAddressedToUs:count 0
+attr interpolationmode none
+attr source packetDropReasonIsNotAddressedToUs(packetDropped)
+attr title "packet drop: not addressed to us, count"
+scalar InfrastructureShowcaseA.AP3.eth[0].mac packetDropNotAddressedToUs:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsNotAddressedToUs(packetDropped)
+attr title "packet drop: not addressed to us, sum(packetBytes)"
+scalar InfrastructureShowcaseA.AP2.relayUnit "number of received BPDUs from STP module" 0
+scalar InfrastructureShowcaseA.AP2.relayUnit "number of received frames from network (including BPDUs)" 1
+scalar InfrastructureShowcaseA.AP2.relayUnit "number of dropped frames (including BPDUs)" 0
+scalar InfrastructureShowcaseA.AP2.relayUnit "number of delivered BPDUs to the STP module" 0
+scalar InfrastructureShowcaseA.AP2.relayUnit "number of dispatched BPDU frames to the network" 0
+scalar InfrastructureShowcaseA.AP2.relayUnit "number of dispatched non-BDPU frames to the network" 1
+scalar InfrastructureShowcaseA.AP2.wlan[0].mac rcvdPkFromLl:count 2940
+attr interpolationmode none
+attr source packetReceivedFromLower
+attr title "packets received from lower layer, count"
+scalar InfrastructureShowcaseA.AP2.wlan[0].mac rcvdPkFromLl:sum(packetBytes) 262640
+attr interpolationmode none
+attr source packetReceivedFromLower
+attr title "packets received from lower layer, sum(packetBytes)"
+scalar InfrastructureShowcaseA.AP2.wlan[0].mac sentDownPk:count 2901
+attr interpolationmode none
+attr source packetSentToLower
+attr title "packets sent to lower layer, count"
+scalar InfrastructureShowcaseA.AP2.wlan[0].mac sentDownPk:sum(packetBytes) 139248
+attr interpolationmode none
+attr source packetSentToLower
+attr title "packets sent to lower layer, sum(packetBytes)"
+scalar InfrastructureShowcaseA.AP2.wlan[0].mac rcvdPkFromHl:count 1
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packets received from higher layer, count"
+scalar InfrastructureShowcaseA.AP2.wlan[0].mac rcvdPkFromHl:sum(packetBytes) 136
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packets received from higher layer, sum(packetBytes)"
+scalar InfrastructureShowcaseA.AP2.wlan[0].mac passedUpPk:count 0
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, count"
+scalar InfrastructureShowcaseA.AP2.wlan[0].mac passedUpPk:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, sum(packetBytes)"
+scalar InfrastructureShowcaseA.AP2.wlan[0].mac packetDropIncorrectlyReceived:count 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packet drop: incorrectly received, count"
+scalar InfrastructureShowcaseA.AP2.wlan[0].mac packetDropIncorrectlyReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packet drop: incorrectly received, sum(packetBytes)"
+scalar InfrastructureShowcaseA.AP2.wlan[0].mac packetDropNotAddressedToUs:count 2938
+attr interpolationmode none
+attr source packetDropReasonIsNotAddressedToUs(packetDropped)
+attr title "packet drop: not addressed to us, count"
+scalar InfrastructureShowcaseA.AP2.wlan[0].mac packetDropNotAddressedToUs:sum(packetBytes) 262594
+attr interpolationmode none
+attr source packetDropReasonIsNotAddressedToUs(packetDropped)
+attr title "packet drop: not addressed to us, sum(packetBytes)"
+scalar InfrastructureShowcaseA.AP2.wlan[0].mac packetDropQueueOverflow:count 0
+attr interpolationmode none
+attr source packetDropReasonIsQueueOverflow(packetDropped)
+attr title "packet drop: queue overflow, count"
+scalar InfrastructureShowcaseA.AP2.wlan[0].mac packetDropQueueOverflow:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsQueueOverflow(packetDropped)
+attr title "packet drop: queue overflow, sum(packetBytes)"
+scalar InfrastructureShowcaseA.AP2.wlan[0].mac packetDropRetryLimitReached:count 0
+attr interpolationmode none
+attr source packetDropReasonIsRetryLimitReached(packetDropped)
+attr title "packet drop: retry limit reached, count"
+scalar InfrastructureShowcaseA.AP2.wlan[0].mac packetDropRetryLimitReached:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsRetryLimitReached(packetDropped)
+attr title "packet drop: retry limit reached, sum(packetBytes)"
+scalar InfrastructureShowcaseA.AP2.wlan[0].mac linkBroken:count 0
+attr interpolationmode none
+attr source linkBroken
+attr title "link break, count"
+statistic InfrastructureShowcaseA.AP2.wlan[0].radio radioChannel:histogram
+field count 1
+field mean 0
+field stddev -nan
+field min 0
+field max 0
+field sum 0
+field sqrsum 0
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, histogram"
+bin	-inf	0
+bin	-0.5	0
+bin	-0.48	0
+bin	-0.46	0
+bin	-0.44	0
+bin	-0.42	0
+bin	-0.4	0
+bin	-0.38	0
+bin	-0.36	0
+bin	-0.34	0
+bin	-0.32	0
+bin	-0.3	0
+bin	-0.28	0
+bin	-0.26	0
+bin	-0.24	0
+bin	-0.22	0
+bin	-0.2	0
+bin	-0.18	0
+bin	-0.16	0
+bin	-0.14	0
+bin	-0.12	0
+bin	-0.1	0
+bin	-0.08	0
+bin	-0.06	0
+bin	-0.04	0
+bin	-0.02	0
+bin	0	1
+bin	0.02	0
+bin	0.04	0
+bin	0.06	0
+bin	0.08	0
+bin	0.1	0
+bin	0.12	0
+bin	0.14	0
+bin	0.16	0
+bin	0.18	0
+bin	0.2	0
+bin	0.22	0
+bin	0.24	0
+bin	0.26	0
+bin	0.28	0
+bin	0.3	0
+bin	0.32	0
+bin	0.34	0
+bin	0.36	0
+bin	0.38	0
+bin	0.4	0
+bin	0.42	0
+bin	0.44	0
+bin	0.46	0
+bin	0.48	0
+bin	0.5	0
+scalar InfrastructureShowcaseA.AP2.wlan[0].radio radioMode:count 5805
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, count"
+scalar InfrastructureShowcaseA.AP2.wlan[0].radio receptionState:count 11715
+attr interpolationmode sample-hold
+attr source receptionStateChanged
+attr title "Radio reception state, count"
+scalar InfrastructureShowcaseA.AP2.wlan[0].radio transmissionState:count 11604
+attr interpolationmode sample-hold
+attr source transmissionStateChanged
+attr title "Radio transmission state, count"
+statistic InfrastructureShowcaseA.AP2.wlan[0].radio minSnir:histogram
+field count 2940
+field mean 675.32388162461
+field stddev 472.11588719942
+field min 317.11143470078
+field max 2415.5278421035
+field sum 1985452.2119764
+field sqrsum 1995907029.3426
+attr source minimumSnir(packetSentToUpper)
+attr title "Min SNIR, histogram"
+bin	-inf	0
+bin	0	0
+bin	50	0
+bin	100	0
+bin	150	0
+bin	200	0
+bin	250	0
+bin	300	300
+bin	350	394
+bin	400	362
+bin	450	340
+bin	500	490
+bin	550	176
+bin	600	112
+bin	650	60
+bin	700	46
+bin	750	50
+bin	800	42
+bin	850	42
+bin	900	36
+bin	950	34
+bin	1000	34
+bin	1050	32
+bin	1100	28
+bin	1150	28
+bin	1200	28
+bin	1250	22
+bin	1300	28
+bin	1350	10
+bin	1400	10
+bin	1450	10
+bin	1500	10
+bin	1550	10
+bin	1600	8
+bin	1650	10
+bin	1700	10
+bin	1750	8
+bin	1800	10
+bin	1850	8
+bin	1900	8
+bin	1950	8
+bin	2000	8
+bin	2050	10
+bin	2100	8
+bin	2150	8
+bin	2200	10
+bin	2250	10
+bin	2300	20
+bin	2350	32
+bin	2400	30
+bin	2450	0
+bin	2500	0
+bin	2550	0
+bin	2600	0
+bin	2650	0
+bin	2700	0
+bin	2750	0
+bin	2800	0
+bin	2850	0
+bin	2900	0
+bin	2950	0
+statistic InfrastructureShowcaseA.AP2.wlan[0].radio packetErrorRate:histogram
+field count 2940
+field mean 0
+field stddev 0
+field min 0
+field max 0
+field sum 0
+field sqrsum 0
+attr source packetErrorRate(packetSentToUpper)
+attr title "Packet error rate, histogram"
+bin	-inf	0
+bin	-0.5	0
+bin	-0.48	0
+bin	-0.46	0
+bin	-0.44	0
+bin	-0.42	0
+bin	-0.4	0
+bin	-0.38	0
+bin	-0.36	0
+bin	-0.34	0
+bin	-0.32	0
+bin	-0.3	0
+bin	-0.28	0
+bin	-0.26	0
+bin	-0.24	0
+bin	-0.22	0
+bin	-0.2	0
+bin	-0.18	0
+bin	-0.16	0
+bin	-0.14	0
+bin	-0.12	0
+bin	-0.1	0
+bin	-0.08	0
+bin	-0.06	0
+bin	-0.04	0
+bin	-0.02	0
+bin	0	2940
+bin	0.02	0
+bin	0.04	0
+bin	0.06	0
+bin	0.08	0
+bin	0.1	0
+bin	0.12	0
+bin	0.14	0
+bin	0.16	0
+bin	0.18	0
+bin	0.2	0
+bin	0.22	0
+bin	0.24	0
+bin	0.26	0
+bin	0.28	0
+bin	0.3	0
+bin	0.32	0
+bin	0.34	0
+bin	0.36	0
+bin	0.38	0
+bin	0.4	0
+bin	0.42	0
+bin	0.44	0
+bin	0.46	0
+bin	0.48	0
+bin	0.5	0
+statistic InfrastructureShowcaseA.AP2.wlan[0].radio bitErrorRate:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field sum 0
+field sqrsum 0
+attr source bitErrorRate(packetSentToUpper)
+attr title "Bit error rate, histogram"
+bin	-inf	0
+bin	0	0
+bin	1	0
+statistic InfrastructureShowcaseA.AP2.wlan[0].radio symbolErrorRate:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field sum 0
+field sqrsum 0
+attr source symbolErrorRate(packetSentToUpper)
+attr title "Symbol error rate, histogram"
+bin	-inf	0
+bin	0	0
+bin	1	0
+scalar InfrastructureShowcaseA.AP2.eth[0].mac "simulated time" 290
+scalar InfrastructureShowcaseA.AP2.eth[0].mac full-duplex 1
+scalar InfrastructureShowcaseA.AP2.eth[0].mac "frames/sec sent" 0
+scalar InfrastructureShowcaseA.AP2.eth[0].mac "frames/sec rcvd" 0.003448275862069
+scalar InfrastructureShowcaseA.AP2.eth[0].mac "bits/sec sent" 0
+scalar InfrastructureShowcaseA.AP2.eth[0].mac "bits/sec rcvd" 4.0275862068966
+scalar InfrastructureShowcaseA.AP2.eth[0].mac "rx channel idle (%)" 100
+scalar InfrastructureShowcaseA.AP2.eth[0].mac "rx channel utilization (%)" 0
+scalar InfrastructureShowcaseA.AP2.eth[0].mac rxPausePkUnits:count 0
+attr interpolationmode none
+attr title "pause units received, count"
+scalar InfrastructureShowcaseA.AP2.eth[0].mac rxPausePkUnits:sum 0
+attr interpolationmode none
+attr title "pause units received, sum"
+scalar InfrastructureShowcaseA.AP2.eth[0].mac txPausePkUnits:count 0
+attr interpolationmode none
+attr title "pause units sent, count"
+scalar InfrastructureShowcaseA.AP2.eth[0].mac txPausePkUnits:sum 0
+attr interpolationmode none
+attr title "pause units sent, sum"
+scalar InfrastructureShowcaseA.AP2.eth[0].mac rxPkOk:count 1
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, count"
+scalar InfrastructureShowcaseA.AP2.eth[0].mac rxPkOk:sum(packetBytes) 146
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, sum(packetBytes)"
+scalar InfrastructureShowcaseA.AP2.eth[0].mac txPk:count 0
+attr interpolationmode none
+attr source packetSentToLower
+attr title "packets transmitted, count"
+scalar InfrastructureShowcaseA.AP2.eth[0].mac txPk:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetSentToLower
+attr title "packets transmitted, sum(packetBytes)"
+scalar InfrastructureShowcaseA.AP2.eth[0].mac packetReceivedFromUpper:count 0
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packet bytes from higher layer, count"
+scalar InfrastructureShowcaseA.AP2.eth[0].mac packetReceivedFromUpper:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packet bytes from higher layer, sum(packetBytes)"
+scalar InfrastructureShowcaseA.AP2.eth[0].mac passedUpPk:count 1
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, count"
+scalar InfrastructureShowcaseA.AP2.eth[0].mac passedUpPk:sum(packetBytes) 146
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, sum(packetBytes)"
+scalar InfrastructureShowcaseA.AP2.eth[0].mac packetDropIncorrectlyReceived:count 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packet drop: incorrectly received, count"
+scalar InfrastructureShowcaseA.AP2.eth[0].mac packetDropIncorrectlyReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packet drop: incorrectly received, sum(packetBytes)"
+scalar InfrastructureShowcaseA.AP2.eth[0].mac packetDropInterfaceDown:count 0
+attr interpolationmode none
+attr source packetDropReasonIsInterfaceDown(packetDropped)
+attr title "packet drop: interface down, count"
+scalar InfrastructureShowcaseA.AP2.eth[0].mac packetDropInterfaceDown:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsInterfaceDown(packetDropped)
+attr title "packet drop: interface down, sum(packetBytes)"
+scalar InfrastructureShowcaseA.AP2.eth[0].mac packetDropNotAddressedToUs:count 0
+attr interpolationmode none
+attr source packetDropReasonIsNotAddressedToUs(packetDropped)
+attr title "packet drop: not addressed to us, count"
+scalar InfrastructureShowcaseA.AP2.eth[0].mac packetDropNotAddressedToUs:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsNotAddressedToUs(packetDropped)
+attr title "packet drop: not addressed to us, sum(packetBytes)"
+scalar InfrastructureShowcaseA.AP1.relayUnit "number of received BPDUs from STP module" 0
+scalar InfrastructureShowcaseA.AP1.relayUnit "number of received frames from network (including BPDUs)" 812
+scalar InfrastructureShowcaseA.AP1.relayUnit "number of dropped frames (including BPDUs)" 0
+scalar InfrastructureShowcaseA.AP1.relayUnit "number of delivered BPDUs to the STP module" 0
+scalar InfrastructureShowcaseA.AP1.relayUnit "number of dispatched BPDU frames to the network" 0
+scalar InfrastructureShowcaseA.AP1.relayUnit "number of dispatched non-BDPU frames to the network" 812
+scalar InfrastructureShowcaseA.AP1.wlan[0].mac rcvdPkFromLl:count 1804
+attr interpolationmode none
+attr source packetReceivedFromLower
+attr title "packets received from lower layer, count"
+scalar InfrastructureShowcaseA.AP1.wlan[0].mac rcvdPkFromLl:sum(packetBytes) 160036
+attr interpolationmode none
+attr source packetReceivedFromLower
+attr title "packets received from lower layer, sum(packetBytes)"
+scalar InfrastructureShowcaseA.AP1.wlan[0].mac sentDownPk:count 3719
+attr interpolationmode none
+attr source packetSentToLower
+attr title "packets sent to lower layer, count"
+scalar InfrastructureShowcaseA.AP1.wlan[0].mac sentDownPk:sum(packetBytes) 182430
+attr interpolationmode none
+attr source packetSentToLower
+attr title "packets sent to lower layer, sum(packetBytes)"
+scalar InfrastructureShowcaseA.AP1.wlan[0].mac rcvdPkFromHl:count 406
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packets received from higher layer, count"
+scalar InfrastructureShowcaseA.AP1.wlan[0].mac rcvdPkFromHl:sum(packetBytes) 25984
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packets received from higher layer, sum(packetBytes)"
+scalar InfrastructureShowcaseA.AP1.wlan[0].mac passedUpPk:count 406
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, count"
+scalar InfrastructureShowcaseA.AP1.wlan[0].mac passedUpPk:sum(packetBytes) 55216
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, sum(packetBytes)"
+scalar InfrastructureShowcaseA.AP1.wlan[0].mac packetDropIncorrectlyReceived:count 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packet drop: incorrectly received, count"
+scalar InfrastructureShowcaseA.AP1.wlan[0].mac packetDropIncorrectlyReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packet drop: incorrectly received, sum(packetBytes)"
+scalar InfrastructureShowcaseA.AP1.wlan[0].mac packetDropNotAddressedToUs:count 984
+attr interpolationmode none
+attr source packetDropReasonIsNotAddressedToUs(packetDropped)
+attr title "packet drop: not addressed to us, count"
+scalar InfrastructureShowcaseA.AP1.wlan[0].mac packetDropNotAddressedToUs:sum(packetBytes) 87576
+attr interpolationmode none
+attr source packetDropReasonIsNotAddressedToUs(packetDropped)
+attr title "packet drop: not addressed to us, sum(packetBytes)"
+scalar InfrastructureShowcaseA.AP1.wlan[0].mac packetDropQueueOverflow:count 0
+attr interpolationmode none
+attr source packetDropReasonIsQueueOverflow(packetDropped)
+attr title "packet drop: queue overflow, count"
+scalar InfrastructureShowcaseA.AP1.wlan[0].mac packetDropQueueOverflow:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsQueueOverflow(packetDropped)
+attr title "packet drop: queue overflow, sum(packetBytes)"
+scalar InfrastructureShowcaseA.AP1.wlan[0].mac packetDropRetryLimitReached:count 0
+attr interpolationmode none
+attr source packetDropReasonIsRetryLimitReached(packetDropped)
+attr title "packet drop: retry limit reached, count"
+scalar InfrastructureShowcaseA.AP1.wlan[0].mac packetDropRetryLimitReached:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsRetryLimitReached(packetDropped)
+attr title "packet drop: retry limit reached, sum(packetBytes)"
+scalar InfrastructureShowcaseA.AP1.wlan[0].mac linkBroken:count 0
+attr interpolationmode none
+attr source linkBroken
+attr title "link break, count"
+statistic InfrastructureShowcaseA.AP1.wlan[0].radio radioChannel:histogram
+field count 1
+field mean 0
+field stddev -nan
+field min 0
+field max 0
+field sum 0
+field sqrsum 0
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, histogram"
+bin	-inf	0
+bin	-0.5	0
+bin	-0.48	0
+bin	-0.46	0
+bin	-0.44	0
+bin	-0.42	0
+bin	-0.4	0
+bin	-0.38	0
+bin	-0.36	0
+bin	-0.34	0
+bin	-0.32	0
+bin	-0.3	0
+bin	-0.28	0
+bin	-0.26	0
+bin	-0.24	0
+bin	-0.22	0
+bin	-0.2	0
+bin	-0.18	0
+bin	-0.16	0
+bin	-0.14	0
+bin	-0.12	0
+bin	-0.1	0
+bin	-0.08	0
+bin	-0.06	0
+bin	-0.04	0
+bin	-0.02	0
+bin	0	1
+bin	0.02	0
+bin	0.04	0
+bin	0.06	0
+bin	0.08	0
+bin	0.1	0
+bin	0.12	0
+bin	0.14	0
+bin	0.16	0
+bin	0.18	0
+bin	0.2	0
+bin	0.22	0
+bin	0.24	0
+bin	0.26	0
+bin	0.28	0
+bin	0.3	0
+bin	0.32	0
+bin	0.34	0
+bin	0.36	0
+bin	0.38	0
+bin	0.4	0
+bin	0.42	0
+bin	0.44	0
+bin	0.46	0
+bin	0.48	0
+bin	0.5	0
+scalar InfrastructureShowcaseA.AP1.wlan[0].radio radioMode:count 7441
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, count"
+scalar InfrastructureShowcaseA.AP1.wlan[0].radio receptionState:count 11069
+attr interpolationmode sample-hold
+attr source receptionStateChanged
+attr title "Radio reception state, count"
+scalar InfrastructureShowcaseA.AP1.wlan[0].radio transmissionState:count 14876
+attr interpolationmode sample-hold
+attr source transmissionStateChanged
+attr title "Radio transmission state, count"
+statistic InfrastructureShowcaseA.AP1.wlan[0].radio minSnir:histogram
+field count 1804
+field mean 908.68012969035
+field stddev 593.20835067919
+field min 316.30261316265
+field max 2415.5278421035
+field sum 1639258.9539614
+field sqrsum 2124030792.4916
+attr source minimumSnir(packetSentToUpper)
+attr title "Min SNIR, histogram"
+bin	-inf	0
+bin	0	0
+bin	50	0
+bin	100	0
+bin	150	0
+bin	200	0
+bin	250	0
+bin	300	190
+bin	350	196
+bin	400	146
+bin	450	88
+bin	500	84
+bin	550	74
+bin	600	64
+bin	650	62
+bin	700	50
+bin	750	52
+bin	800	48
+bin	850	44
+bin	900	40
+bin	950	40
+bin	1000	36
+bin	1050	38
+bin	1100	32
+bin	1150	38
+bin	1200	36
+bin	1250	36
+bin	1300	54
+bin	1350	50
+bin	1400	12
+bin	1450	12
+bin	1500	12
+bin	1550	12
+bin	1600	12
+bin	1650	12
+bin	1700	12
+bin	1750	12
+bin	1800	12
+bin	1850	12
+bin	1900	12
+bin	1950	8
+bin	2000	12
+bin	2050	16
+bin	2100	12
+bin	2150	12
+bin	2200	16
+bin	2250	16
+bin	2300	20
+bin	2350	32
+bin	2400	30
+bin	2450	0
+bin	2500	0
+bin	2550	0
+bin	2600	0
+bin	2650	0
+bin	2700	0
+bin	2750	0
+bin	2800	0
+bin	2850	0
+bin	2900	0
+bin	2950	0
+statistic InfrastructureShowcaseA.AP1.wlan[0].radio packetErrorRate:histogram
+field count 1804
+field mean 0
+field stddev 0
+field min 0
+field max 0
+field sum 0
+field sqrsum 0
+attr source packetErrorRate(packetSentToUpper)
+attr title "Packet error rate, histogram"
+bin	-inf	0
+bin	-0.5	0
+bin	-0.48	0
+bin	-0.46	0
+bin	-0.44	0
+bin	-0.42	0
+bin	-0.4	0
+bin	-0.38	0
+bin	-0.36	0
+bin	-0.34	0
+bin	-0.32	0
+bin	-0.3	0
+bin	-0.28	0
+bin	-0.26	0
+bin	-0.24	0
+bin	-0.22	0
+bin	-0.2	0
+bin	-0.18	0
+bin	-0.16	0
+bin	-0.14	0
+bin	-0.12	0
+bin	-0.1	0
+bin	-0.08	0
+bin	-0.06	0
+bin	-0.04	0
+bin	-0.02	0
+bin	0	1804
+bin	0.02	0
+bin	0.04	0
+bin	0.06	0
+bin	0.08	0
+bin	0.1	0
+bin	0.12	0
+bin	0.14	0
+bin	0.16	0
+bin	0.18	0
+bin	0.2	0
+bin	0.22	0
+bin	0.24	0
+bin	0.26	0
+bin	0.28	0
+bin	0.3	0
+bin	0.32	0
+bin	0.34	0
+bin	0.36	0
+bin	0.38	0
+bin	0.4	0
+bin	0.42	0
+bin	0.44	0
+bin	0.46	0
+bin	0.48	0
+bin	0.5	0
+statistic InfrastructureShowcaseA.AP1.wlan[0].radio bitErrorRate:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field sum 0
+field sqrsum 0
+attr source bitErrorRate(packetSentToUpper)
+attr title "Bit error rate, histogram"
+bin	-inf	0
+bin	0	0
+bin	1	0
+statistic InfrastructureShowcaseA.AP1.wlan[0].radio symbolErrorRate:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field sum 0
+field sqrsum 0
+attr source symbolErrorRate(packetSentToUpper)
+attr title "Symbol error rate, histogram"
+bin	-inf	0
+bin	0	0
+bin	1	0
+scalar InfrastructureShowcaseA.AP1.eth[0].mac "simulated time" 290
+scalar InfrastructureShowcaseA.AP1.eth[0].mac full-duplex 1
+scalar InfrastructureShowcaseA.AP1.eth[0].mac "frames/sec sent" 1.4
+scalar InfrastructureShowcaseA.AP1.eth[0].mac "frames/sec rcvd" 1.4
+scalar InfrastructureShowcaseA.AP1.eth[0].mac "bits/sec sent" 1635.2
+scalar InfrastructureShowcaseA.AP1.eth[0].mac "bits/sec rcvd" 828.8
+scalar InfrastructureShowcaseA.AP1.eth[0].mac "rx channel idle (%)" 100
+scalar InfrastructureShowcaseA.AP1.eth[0].mac "rx channel utilization (%)" 0
+scalar InfrastructureShowcaseA.AP1.eth[0].mac rxPausePkUnits:count 0
+attr interpolationmode none
+attr title "pause units received, count"
+scalar InfrastructureShowcaseA.AP1.eth[0].mac rxPausePkUnits:sum 0
+attr interpolationmode none
+attr title "pause units received, sum"
+scalar InfrastructureShowcaseA.AP1.eth[0].mac txPausePkUnits:count 0
+attr interpolationmode none
+attr title "pause units sent, count"
+scalar InfrastructureShowcaseA.AP1.eth[0].mac txPausePkUnits:sum 0
+attr interpolationmode none
+attr title "pause units sent, sum"
+scalar InfrastructureShowcaseA.AP1.eth[0].mac rxPkOk:count 406
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, count"
+scalar InfrastructureShowcaseA.AP1.eth[0].mac rxPkOk:sum(packetBytes) 30044
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, sum(packetBytes)"
+scalar InfrastructureShowcaseA.AP1.eth[0].mac txPk:count 406
+attr interpolationmode none
+attr source packetSentToLower
+attr title "packets transmitted, count"
+scalar InfrastructureShowcaseA.AP1.eth[0].mac txPk:sum(packetBytes) 59276
+attr interpolationmode none
+attr source packetSentToLower
+attr title "packets transmitted, sum(packetBytes)"
+scalar InfrastructureShowcaseA.AP1.eth[0].mac packetReceivedFromUpper:count 406
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packet bytes from higher layer, count"
+scalar InfrastructureShowcaseA.AP1.eth[0].mac packetReceivedFromUpper:sum(packetBytes) 59276
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packet bytes from higher layer, sum(packetBytes)"
+scalar InfrastructureShowcaseA.AP1.eth[0].mac passedUpPk:count 406
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, count"
+scalar InfrastructureShowcaseA.AP1.eth[0].mac passedUpPk:sum(packetBytes) 30044
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, sum(packetBytes)"
+scalar InfrastructureShowcaseA.AP1.eth[0].mac packetDropIncorrectlyReceived:count 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packet drop: incorrectly received, count"
+scalar InfrastructureShowcaseA.AP1.eth[0].mac packetDropIncorrectlyReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packet drop: incorrectly received, sum(packetBytes)"
+scalar InfrastructureShowcaseA.AP1.eth[0].mac packetDropInterfaceDown:count 0
+attr interpolationmode none
+attr source packetDropReasonIsInterfaceDown(packetDropped)
+attr title "packet drop: interface down, count"
+scalar InfrastructureShowcaseA.AP1.eth[0].mac packetDropInterfaceDown:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsInterfaceDown(packetDropped)
+attr title "packet drop: interface down, sum(packetBytes)"
+scalar InfrastructureShowcaseA.AP1.eth[0].mac packetDropNotAddressedToUs:count 0
+attr interpolationmode none
+attr source packetDropReasonIsNotAddressedToUs(packetDropped)
+attr title "packet drop: not addressed to us, count"
+scalar InfrastructureShowcaseA.AP1.eth[0].mac packetDropNotAddressedToUs:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsNotAddressedToUs(packetDropped)
+attr title "packet drop: not addressed to us, sum(packetBytes)"
+scalar InfrastructureShowcaseA.etherSwitch.relayUnit "number of received BPDUs from STP module" 0
+scalar InfrastructureShowcaseA.etherSwitch.relayUnit "number of received frames from network (including BPDUs)" 5774
+scalar InfrastructureShowcaseA.etherSwitch.relayUnit "number of dropped frames (including BPDUs)" 0
+scalar InfrastructureShowcaseA.etherSwitch.relayUnit "number of delivered BPDUs to the STP module" 0
+scalar InfrastructureShowcaseA.etherSwitch.relayUnit "number of dispatched BPDU frames to the network" 0
+scalar InfrastructureShowcaseA.etherSwitch.relayUnit "number of dispatched non-BDPU frames to the network" 5776
+scalar InfrastructureShowcaseA.etherSwitch.eth[0].mac "simulated time" 290
+scalar InfrastructureShowcaseA.etherSwitch.eth[0].mac full-duplex 1
+scalar InfrastructureShowcaseA.etherSwitch.eth[0].mac "frames/sec sent" 8.5586206896552
+scalar InfrastructureShowcaseA.etherSwitch.eth[0].mac "frames/sec rcvd" 8.5551724137931
+scalar InfrastructureShowcaseA.etherSwitch.eth[0].mac "bits/sec sent" 5068.6896551724
+scalar InfrastructureShowcaseA.etherSwitch.eth[0].mac "bits/sec rcvd" 9992.4413793103
+scalar InfrastructureShowcaseA.etherSwitch.eth[0].mac "rx channel idle (%)" 99.989460027586
+scalar InfrastructureShowcaseA.etherSwitch.eth[0].mac "rx channel utilization (%)" 0.010539972413793
+scalar InfrastructureShowcaseA.etherSwitch.eth[0].mac "rx channel collision (%)" 0
+scalar InfrastructureShowcaseA.etherSwitch.eth[0].mac collisions 0
+scalar InfrastructureShowcaseA.etherSwitch.eth[0].mac backoffs 0
+scalar InfrastructureShowcaseA.etherSwitch.eth[0].mac rxPausePkUnits:count 0
+attr interpolationmode none
+attr title "pause units received, count"
+scalar InfrastructureShowcaseA.etherSwitch.eth[0].mac rxPausePkUnits:sum 0
+attr interpolationmode none
+attr title "pause units received, sum"
+scalar InfrastructureShowcaseA.etherSwitch.eth[0].mac txPausePkUnits:count 0
+attr interpolationmode none
+attr title "pause units sent, count"
+scalar InfrastructureShowcaseA.etherSwitch.eth[0].mac txPausePkUnits:sum 0
+attr interpolationmode none
+attr title "pause units sent, sum"
+scalar InfrastructureShowcaseA.etherSwitch.eth[0].mac rxPkOk:count 2481
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, count"
+scalar InfrastructureShowcaseA.etherSwitch.eth[0].mac rxPkOk:sum(packetBytes) 362226
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, sum(packetBytes)"
+scalar InfrastructureShowcaseA.etherSwitch.eth[0].mac backoffSlotsGenerated:count 0
+attr interpolationmode none
+attr title "backoff, count"
+scalar InfrastructureShowcaseA.etherSwitch.eth[0].mac collision:count 0
+attr interpolationmode none
+attr title "collision, count"
+scalar InfrastructureShowcaseA.etherSwitch.eth[0].mac txPk:count 2482
+attr interpolationmode none
+attr source packetSentToLower
+attr title "packets transmitted, count"
+scalar InfrastructureShowcaseA.etherSwitch.eth[0].mac txPk:sum(packetBytes) 183740
+attr interpolationmode none
+attr source packetSentToLower
+attr title "packets transmitted, sum(packetBytes)"
+scalar InfrastructureShowcaseA.etherSwitch.eth[0].mac packetReceivedFromUpper:count 2482
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packet bytes from higher layer, count"
+scalar InfrastructureShowcaseA.etherSwitch.eth[0].mac packetReceivedFromUpper:sum(packetBytes) 183740
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packet bytes from higher layer, sum(packetBytes)"
+scalar InfrastructureShowcaseA.etherSwitch.eth[0].mac passedUpPk:count 2481
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, count"
+scalar InfrastructureShowcaseA.etherSwitch.eth[0].mac passedUpPk:sum(packetBytes) 362226
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, sum(packetBytes)"
+scalar InfrastructureShowcaseA.etherSwitch.eth[0].mac packetDropIncorrectlyReceived:count 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packet drop: incorrectly received, count"
+scalar InfrastructureShowcaseA.etherSwitch.eth[0].mac packetDropIncorrectlyReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packet drop: incorrectly received, sum(packetBytes)"
+scalar InfrastructureShowcaseA.etherSwitch.eth[0].mac packetDropInterfaceDown:count 0
+attr interpolationmode none
+attr source packetDropReasonIsInterfaceDown(packetDropped)
+attr title "packet drop: interface down, count"
+scalar InfrastructureShowcaseA.etherSwitch.eth[0].mac packetDropInterfaceDown:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsInterfaceDown(packetDropped)
+attr title "packet drop: interface down, sum(packetBytes)"
+scalar InfrastructureShowcaseA.etherSwitch.eth[0].mac packetDropNotAddressedToUs:count 0
+attr interpolationmode none
+attr source packetDropReasonIsNotAddressedToUs(packetDropped)
+attr title "packet drop: not addressed to us, count"
+scalar InfrastructureShowcaseA.etherSwitch.eth[0].mac packetDropNotAddressedToUs:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsNotAddressedToUs(packetDropped)
+attr title "packet drop: not addressed to us, sum(packetBytes)"
+scalar InfrastructureShowcaseA.etherSwitch.eth[1].mac "simulated time" 290
+scalar InfrastructureShowcaseA.etherSwitch.eth[1].mac full-duplex 1
+scalar InfrastructureShowcaseA.etherSwitch.eth[1].mac "frames/sec sent" 1.4
+scalar InfrastructureShowcaseA.etherSwitch.eth[1].mac "frames/sec rcvd" 1.4
+scalar InfrastructureShowcaseA.etherSwitch.eth[1].mac "bits/sec sent" 828.8
+scalar InfrastructureShowcaseA.etherSwitch.eth[1].mac "bits/sec rcvd" 1635.2
+scalar InfrastructureShowcaseA.etherSwitch.eth[1].mac "rx channel idle (%)" 99.9982752
+scalar InfrastructureShowcaseA.etherSwitch.eth[1].mac "rx channel utilization (%)" 0.0017248
+scalar InfrastructureShowcaseA.etherSwitch.eth[1].mac "rx channel collision (%)" 0
+scalar InfrastructureShowcaseA.etherSwitch.eth[1].mac collisions 0
+scalar InfrastructureShowcaseA.etherSwitch.eth[1].mac backoffs 0
+scalar InfrastructureShowcaseA.etherSwitch.eth[1].mac rxPausePkUnits:count 0
+attr interpolationmode none
+attr title "pause units received, count"
+scalar InfrastructureShowcaseA.etherSwitch.eth[1].mac rxPausePkUnits:sum 0
+attr interpolationmode none
+attr title "pause units received, sum"
+scalar InfrastructureShowcaseA.etherSwitch.eth[1].mac txPausePkUnits:count 0
+attr interpolationmode none
+attr title "pause units sent, count"
+scalar InfrastructureShowcaseA.etherSwitch.eth[1].mac txPausePkUnits:sum 0
+attr interpolationmode none
+attr title "pause units sent, sum"
+scalar InfrastructureShowcaseA.etherSwitch.eth[1].mac rxPkOk:count 406
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, count"
+scalar InfrastructureShowcaseA.etherSwitch.eth[1].mac rxPkOk:sum(packetBytes) 59276
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, sum(packetBytes)"
+scalar InfrastructureShowcaseA.etherSwitch.eth[1].mac backoffSlotsGenerated:count 0
+attr interpolationmode none
+attr title "backoff, count"
+scalar InfrastructureShowcaseA.etherSwitch.eth[1].mac collision:count 0
+attr interpolationmode none
+attr title "collision, count"
+scalar InfrastructureShowcaseA.etherSwitch.eth[1].mac txPk:count 406
+attr interpolationmode none
+attr source packetSentToLower
+attr title "packets transmitted, count"
+scalar InfrastructureShowcaseA.etherSwitch.eth[1].mac txPk:sum(packetBytes) 30044
+attr interpolationmode none
+attr source packetSentToLower
+attr title "packets transmitted, sum(packetBytes)"
+scalar InfrastructureShowcaseA.etherSwitch.eth[1].mac packetReceivedFromUpper:count 406
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packet bytes from higher layer, count"
+scalar InfrastructureShowcaseA.etherSwitch.eth[1].mac packetReceivedFromUpper:sum(packetBytes) 30044
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packet bytes from higher layer, sum(packetBytes)"
+scalar InfrastructureShowcaseA.etherSwitch.eth[1].mac passedUpPk:count 406
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, count"
+scalar InfrastructureShowcaseA.etherSwitch.eth[1].mac passedUpPk:sum(packetBytes) 59276
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, sum(packetBytes)"
+scalar InfrastructureShowcaseA.etherSwitch.eth[1].mac packetDropIncorrectlyReceived:count 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packet drop: incorrectly received, count"
+scalar InfrastructureShowcaseA.etherSwitch.eth[1].mac packetDropIncorrectlyReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packet drop: incorrectly received, sum(packetBytes)"
+scalar InfrastructureShowcaseA.etherSwitch.eth[1].mac packetDropInterfaceDown:count 0
+attr interpolationmode none
+attr source packetDropReasonIsInterfaceDown(packetDropped)
+attr title "packet drop: interface down, count"
+scalar InfrastructureShowcaseA.etherSwitch.eth[1].mac packetDropInterfaceDown:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsInterfaceDown(packetDropped)
+attr title "packet drop: interface down, sum(packetBytes)"
+scalar InfrastructureShowcaseA.etherSwitch.eth[1].mac packetDropNotAddressedToUs:count 0
+attr interpolationmode none
+attr source packetDropReasonIsNotAddressedToUs(packetDropped)
+attr title "packet drop: not addressed to us, count"
+scalar InfrastructureShowcaseA.etherSwitch.eth[1].mac packetDropNotAddressedToUs:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsNotAddressedToUs(packetDropped)
+attr title "packet drop: not addressed to us, sum(packetBytes)"
+scalar InfrastructureShowcaseA.etherSwitch.eth[2].mac "simulated time" 290
+scalar InfrastructureShowcaseA.etherSwitch.eth[2].mac full-duplex 1
+scalar InfrastructureShowcaseA.etherSwitch.eth[2].mac "frames/sec sent" 0.003448275862069
+scalar InfrastructureShowcaseA.etherSwitch.eth[2].mac "frames/sec rcvd" 0
+scalar InfrastructureShowcaseA.etherSwitch.eth[2].mac "bits/sec sent" 4.0275862068966
+scalar InfrastructureShowcaseA.etherSwitch.eth[2].mac "bits/sec rcvd" 0
+scalar InfrastructureShowcaseA.etherSwitch.eth[2].mac "rx channel idle (%)" 100
+scalar InfrastructureShowcaseA.etherSwitch.eth[2].mac "rx channel utilization (%)" 0
+scalar InfrastructureShowcaseA.etherSwitch.eth[2].mac "rx channel collision (%)" 0
+scalar InfrastructureShowcaseA.etherSwitch.eth[2].mac collisions 0
+scalar InfrastructureShowcaseA.etherSwitch.eth[2].mac backoffs 0
+scalar InfrastructureShowcaseA.etherSwitch.eth[2].mac rxPausePkUnits:count 0
+attr interpolationmode none
+attr title "pause units received, count"
+scalar InfrastructureShowcaseA.etherSwitch.eth[2].mac rxPausePkUnits:sum 0
+attr interpolationmode none
+attr title "pause units received, sum"
+scalar InfrastructureShowcaseA.etherSwitch.eth[2].mac txPausePkUnits:count 0
+attr interpolationmode none
+attr title "pause units sent, count"
+scalar InfrastructureShowcaseA.etherSwitch.eth[2].mac txPausePkUnits:sum 0
+attr interpolationmode none
+attr title "pause units sent, sum"
+scalar InfrastructureShowcaseA.etherSwitch.eth[2].mac rxPkOk:count 0
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, count"
+scalar InfrastructureShowcaseA.etherSwitch.eth[2].mac rxPkOk:sum(packetBytes) 0
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, sum(packetBytes)"
+scalar InfrastructureShowcaseA.etherSwitch.eth[2].mac backoffSlotsGenerated:count 0
+attr interpolationmode none
+attr title "backoff, count"
+scalar InfrastructureShowcaseA.etherSwitch.eth[2].mac collision:count 0
+attr interpolationmode none
+attr title "collision, count"
+scalar InfrastructureShowcaseA.etherSwitch.eth[2].mac txPk:count 1
+attr interpolationmode none
+attr source packetSentToLower
+attr title "packets transmitted, count"
+scalar InfrastructureShowcaseA.etherSwitch.eth[2].mac txPk:sum(packetBytes) 146
+attr interpolationmode none
+attr source packetSentToLower
+attr title "packets transmitted, sum(packetBytes)"
+scalar InfrastructureShowcaseA.etherSwitch.eth[2].mac packetReceivedFromUpper:count 1
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packet bytes from higher layer, count"
+scalar InfrastructureShowcaseA.etherSwitch.eth[2].mac packetReceivedFromUpper:sum(packetBytes) 146
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packet bytes from higher layer, sum(packetBytes)"
+scalar InfrastructureShowcaseA.etherSwitch.eth[2].mac passedUpPk:count 0
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, count"
+scalar InfrastructureShowcaseA.etherSwitch.eth[2].mac passedUpPk:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, sum(packetBytes)"
+scalar InfrastructureShowcaseA.etherSwitch.eth[2].mac packetDropIncorrectlyReceived:count 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packet drop: incorrectly received, count"
+scalar InfrastructureShowcaseA.etherSwitch.eth[2].mac packetDropIncorrectlyReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packet drop: incorrectly received, sum(packetBytes)"
+scalar InfrastructureShowcaseA.etherSwitch.eth[2].mac packetDropInterfaceDown:count 0
+attr interpolationmode none
+attr source packetDropReasonIsInterfaceDown(packetDropped)
+attr title "packet drop: interface down, count"
+scalar InfrastructureShowcaseA.etherSwitch.eth[2].mac packetDropInterfaceDown:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsInterfaceDown(packetDropped)
+attr title "packet drop: interface down, sum(packetBytes)"
+scalar InfrastructureShowcaseA.etherSwitch.eth[2].mac packetDropNotAddressedToUs:count 0
+attr interpolationmode none
+attr source packetDropReasonIsNotAddressedToUs(packetDropped)
+attr title "packet drop: not addressed to us, count"
+scalar InfrastructureShowcaseA.etherSwitch.eth[2].mac packetDropNotAddressedToUs:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsNotAddressedToUs(packetDropped)
+attr title "packet drop: not addressed to us, sum(packetBytes)"
+scalar InfrastructureShowcaseA.etherSwitch.eth[3].mac "simulated time" 290
+scalar InfrastructureShowcaseA.etherSwitch.eth[3].mac full-duplex 1
+scalar InfrastructureShowcaseA.etherSwitch.eth[3].mac "frames/sec sent" 9.9551724137931
+scalar InfrastructureShowcaseA.etherSwitch.eth[3].mac "frames/sec rcvd" 9.9551724137931
+scalar InfrastructureShowcaseA.etherSwitch.eth[3].mac "bits/sec sent" 11627.64137931
+scalar InfrastructureShowcaseA.etherSwitch.eth[3].mac "bits/sec rcvd" 5893.4620689655
+scalar InfrastructureShowcaseA.etherSwitch.eth[3].mac "rx channel idle (%)" 99.993469406897
+scalar InfrastructureShowcaseA.etherSwitch.eth[3].mac "rx channel utilization (%)" 0.0065305931034483
+scalar InfrastructureShowcaseA.etherSwitch.eth[3].mac "rx channel collision (%)" 0
+scalar InfrastructureShowcaseA.etherSwitch.eth[3].mac collisions 0
+scalar InfrastructureShowcaseA.etherSwitch.eth[3].mac backoffs 0
+scalar InfrastructureShowcaseA.etherSwitch.eth[3].mac rxPausePkUnits:count 0
+attr interpolationmode none
+attr title "pause units received, count"
+scalar InfrastructureShowcaseA.etherSwitch.eth[3].mac rxPausePkUnits:sum 0
+attr interpolationmode none
+attr title "pause units received, sum"
+scalar InfrastructureShowcaseA.etherSwitch.eth[3].mac txPausePkUnits:count 0
+attr interpolationmode none
+attr title "pause units sent, count"
+scalar InfrastructureShowcaseA.etherSwitch.eth[3].mac txPausePkUnits:sum 0
+attr interpolationmode none
+attr title "pause units sent, sum"
+scalar InfrastructureShowcaseA.etherSwitch.eth[3].mac rxPkOk:count 2887
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, count"
+scalar InfrastructureShowcaseA.etherSwitch.eth[3].mac rxPkOk:sum(packetBytes) 213638
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, sum(packetBytes)"
+scalar InfrastructureShowcaseA.etherSwitch.eth[3].mac backoffSlotsGenerated:count 0
+attr interpolationmode none
+attr title "backoff, count"
+scalar InfrastructureShowcaseA.etherSwitch.eth[3].mac collision:count 0
+attr interpolationmode none
+attr title "collision, count"
+scalar InfrastructureShowcaseA.etherSwitch.eth[3].mac txPk:count 2887
+attr interpolationmode none
+attr source packetSentToLower
+attr title "packets transmitted, count"
+scalar InfrastructureShowcaseA.etherSwitch.eth[3].mac txPk:sum(packetBytes) 421502
+attr interpolationmode none
+attr source packetSentToLower
+attr title "packets transmitted, sum(packetBytes)"
+scalar InfrastructureShowcaseA.etherSwitch.eth[3].mac packetReceivedFromUpper:count 2887
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packet bytes from higher layer, count"
+scalar InfrastructureShowcaseA.etherSwitch.eth[3].mac packetReceivedFromUpper:sum(packetBytes) 421502
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packet bytes from higher layer, sum(packetBytes)"
+scalar InfrastructureShowcaseA.etherSwitch.eth[3].mac passedUpPk:count 2887
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, count"
+scalar InfrastructureShowcaseA.etherSwitch.eth[3].mac passedUpPk:sum(packetBytes) 213638
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, sum(packetBytes)"
+scalar InfrastructureShowcaseA.etherSwitch.eth[3].mac packetDropIncorrectlyReceived:count 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packet drop: incorrectly received, count"
+scalar InfrastructureShowcaseA.etherSwitch.eth[3].mac packetDropIncorrectlyReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packet drop: incorrectly received, sum(packetBytes)"
+scalar InfrastructureShowcaseA.etherSwitch.eth[3].mac packetDropInterfaceDown:count 0
+attr interpolationmode none
+attr source packetDropReasonIsInterfaceDown(packetDropped)
+attr title "packet drop: interface down, count"
+scalar InfrastructureShowcaseA.etherSwitch.eth[3].mac packetDropInterfaceDown:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsInterfaceDown(packetDropped)
+attr title "packet drop: interface down, sum(packetBytes)"
+scalar InfrastructureShowcaseA.etherSwitch.eth[3].mac packetDropNotAddressedToUs:count 0
+attr interpolationmode none
+attr source packetDropReasonIsNotAddressedToUs(packetDropped)
+attr title "packet drop: not addressed to us, count"
+scalar InfrastructureShowcaseA.etherSwitch.eth[3].mac packetDropNotAddressedToUs:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsNotAddressedToUs(packetDropped)
+attr title "packet drop: not addressed to us, sum(packetBytes)"
+scalar InfrastructureShowcaseA.etherSwitch.encap pauseSent:count 0
+attr title "pause sent, count"
+scalar InfrastructureShowcaseA.etherSwitch.encap pauseSent:sum 0
+attr title "pause sent, sum"
+scalar InfrastructureShowcaseA.etherSwitch.encap decapPk:count 0
+attr interpolationmode none
+attr source decapPk
+attr title "packets decapsulated, count"
+scalar InfrastructureShowcaseA.etherSwitch.encap decapPk:sum(packetBytes) 0
+attr interpolationmode none
+attr source decapPk
+attr title "packets decapsulated, sum(packetBytes)"
+scalar InfrastructureShowcaseA.etherSwitch.encap encapPk:count 0
+attr interpolationmode none
+attr source encapPk
+attr title "packets encapsulated, count"
+scalar InfrastructureShowcaseA.etherSwitch.encap encapPk:sum(packetBytes) 0
+attr interpolationmode none
+attr source encapPk
+attr title "packets encapsulated, sum(packetBytes)"
+scalar InfrastructureShowcaseA.standardHost.lo[0].lo rcvdPkFromHl:count 0
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packets received from higher layer, count"
+scalar InfrastructureShowcaseA.standardHost.lo[0].lo rcvdPkFromHl:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packets received from higher layer, sum(packetBytes)"
+scalar InfrastructureShowcaseA.standardHost.lo[0].lo passedUpPk:count 0
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, count"
+scalar InfrastructureShowcaseA.standardHost.lo[0].lo passedUpPk:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, sum(packetBytes)"
+scalar InfrastructureShowcaseA.standardHost.eth[0].mac "simulated time" 290
+scalar InfrastructureShowcaseA.standardHost.eth[0].mac full-duplex 1
+scalar InfrastructureShowcaseA.standardHost.eth[0].mac "frames/sec sent" 9.9551724137931
+scalar InfrastructureShowcaseA.standardHost.eth[0].mac "frames/sec rcvd" 9.9551724137931
+scalar InfrastructureShowcaseA.standardHost.eth[0].mac "bits/sec sent" 5893.4620689655
+scalar InfrastructureShowcaseA.standardHost.eth[0].mac "bits/sec rcvd" 11627.64137931
+scalar InfrastructureShowcaseA.standardHost.eth[0].mac "rx channel idle (%)" 100
+scalar InfrastructureShowcaseA.standardHost.eth[0].mac "rx channel utilization (%)" 0
+scalar InfrastructureShowcaseA.standardHost.eth[0].mac rxPausePkUnits:count 0
+attr interpolationmode none
+attr title "pause units received, count"
+scalar InfrastructureShowcaseA.standardHost.eth[0].mac rxPausePkUnits:sum 0
+attr interpolationmode none
+attr title "pause units received, sum"
+scalar InfrastructureShowcaseA.standardHost.eth[0].mac txPausePkUnits:count 0
+attr interpolationmode none
+attr title "pause units sent, count"
+scalar InfrastructureShowcaseA.standardHost.eth[0].mac txPausePkUnits:sum 0
+attr interpolationmode none
+attr title "pause units sent, sum"
+scalar InfrastructureShowcaseA.standardHost.eth[0].mac rxPkOk:count 2887
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, count"
+scalar InfrastructureShowcaseA.standardHost.eth[0].mac rxPkOk:sum(packetBytes) 421502
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, sum(packetBytes)"
+scalar InfrastructureShowcaseA.standardHost.eth[0].mac txPk:count 2887
+attr interpolationmode none
+attr source packetSentToLower
+attr title "packets transmitted, count"
+scalar InfrastructureShowcaseA.standardHost.eth[0].mac txPk:sum(packetBytes) 213638
+attr interpolationmode none
+attr source packetSentToLower
+attr title "packets transmitted, sum(packetBytes)"
+scalar InfrastructureShowcaseA.standardHost.eth[0].mac packetReceivedFromUpper:count 2887
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packet bytes from higher layer, count"
+scalar InfrastructureShowcaseA.standardHost.eth[0].mac packetReceivedFromUpper:sum(packetBytes) 213638
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packet bytes from higher layer, sum(packetBytes)"
+scalar InfrastructureShowcaseA.standardHost.eth[0].mac passedUpPk:count 2887
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, count"
+scalar InfrastructureShowcaseA.standardHost.eth[0].mac passedUpPk:sum(packetBytes) 421502
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, sum(packetBytes)"
+scalar InfrastructureShowcaseA.standardHost.eth[0].mac packetDropIncorrectlyReceived:count 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packet drop: incorrectly received, count"
+scalar InfrastructureShowcaseA.standardHost.eth[0].mac packetDropIncorrectlyReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packet drop: incorrectly received, sum(packetBytes)"
+scalar InfrastructureShowcaseA.standardHost.eth[0].mac packetDropInterfaceDown:count 0
+attr interpolationmode none
+attr source packetDropReasonIsInterfaceDown(packetDropped)
+attr title "packet drop: interface down, count"
+scalar InfrastructureShowcaseA.standardHost.eth[0].mac packetDropInterfaceDown:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsInterfaceDown(packetDropped)
+attr title "packet drop: interface down, sum(packetBytes)"
+scalar InfrastructureShowcaseA.standardHost.eth[0].mac packetDropNotAddressedToUs:count 0
+attr interpolationmode none
+attr source packetDropReasonIsNotAddressedToUs(packetDropped)
+attr title "packet drop: not addressed to us, count"
+scalar InfrastructureShowcaseA.standardHost.eth[0].mac packetDropNotAddressedToUs:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsNotAddressedToUs(packetDropped)
+attr title "packet drop: not addressed to us, sum(packetBytes)"
+scalar InfrastructureShowcaseA.standardHost.eth[0].encap pauseSent:count 0
+attr title "pause sent, count"
+scalar InfrastructureShowcaseA.standardHost.eth[0].encap pauseSent:sum 0
+attr title "pause sent, sum"
+scalar InfrastructureShowcaseA.standardHost.eth[0].encap decapPk:count 2887
+attr interpolationmode none
+attr source decapPk
+attr title "packets decapsulated, count"
+scalar InfrastructureShowcaseA.standardHost.eth[0].encap decapPk:sum(packetBytes) 369536
+attr interpolationmode none
+attr source decapPk
+attr title "packets decapsulated, sum(packetBytes)"
+scalar InfrastructureShowcaseA.standardHost.eth[0].encap encapPk:count 2887
+attr interpolationmode none
+attr source encapPk
+attr title "packets encapsulated, count"
+scalar InfrastructureShowcaseA.standardHost.eth[0].encap encapPk:sum(packetBytes) 161672
+attr interpolationmode none
+attr source encapPk
+attr title "packets encapsulated, sum(packetBytes)"
+scalar InfrastructureShowcaseA.standardHost.ipv4.ip packetDropAddressResolutionFailed:count 0
+attr interpolationmode none
+attr source packetDropReasonIsAddressResolutionFailed(packetDropped)
+attr title "packet drop: address resolution failed, count"
+scalar InfrastructureShowcaseA.standardHost.ipv4.ip packetDropAddressResolutionFailed:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsAddressResolutionFailed(packetDropped)
+attr title "packet drop: address resolution failed, sum(packetBytes)"
+scalar InfrastructureShowcaseA.standardHost.ipv4.ip packetDropHopLimitReached:count 0
+attr interpolationmode none
+attr source packetDropReasonIsHopLimitReached(packetDropped)
+attr title "packet drop: hop limit reached, count"
+scalar InfrastructureShowcaseA.standardHost.ipv4.ip packetDropHopLimitReached:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsHopLimitReached(packetDropped)
+attr title "packet drop: hop limit reached, sum(packetBytes)"
+scalar InfrastructureShowcaseA.standardHost.ipv4.ip packetDropForwardingDisabled:count 0
+attr interpolationmode none
+attr source packetDropReasonIsForwardingDisabled(packetDropped)
+attr title "packet drop: forwarding disabled, count"
+scalar InfrastructureShowcaseA.standardHost.ipv4.ip packetDropForwardingDisabled:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsForwardingDisabled(packetDropped)
+attr title "packet drop: forwarding disabled, sum(packetBytes)"
+scalar InfrastructureShowcaseA.standardHost.ipv4.ip packetDropNoInterfaceFound:count 0
+attr interpolationmode none
+attr source packetDropReasonIsNoInterfaceFound(packetDropped)
+attr title "packet drop: no interface found, count"
+scalar InfrastructureShowcaseA.standardHost.ipv4.ip packetDropNoInterfaceFound:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsNoInterfaceFound(packetDropped)
+attr title "packet drop: no interface found, sum(packetBytes)"
+scalar InfrastructureShowcaseA.standardHost.ipv4.ip packetDropNoRouteFound:count 0
+attr interpolationmode none
+attr source packetDropReasonIsNoRouteFound(packetDropped)
+attr title "packet drop: no route found, count"
+scalar InfrastructureShowcaseA.standardHost.ipv4.ip packetDropNoRouteFound:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsNoRouteFound(packetDropped)
+attr title "packet drop: no route found, sum(packetBytes)"
+scalar InfrastructureShowcaseA.standardHost.ipv4.ip packetDropUndefined:count 0
+attr interpolationmode none
+attr source packetDropReasonIsUndefined(packetDropped)
+attr title "packet drop: undefined, count"
+scalar InfrastructureShowcaseA.standardHost.ipv4.ip packetDropUndefined:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsUndefined(packetDropped)
+attr title "packet drop: undefined, sum(packetBytes)"
+scalar InfrastructureShowcaseA.standardHost.udp packetReceived:count 2887
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, count"
+scalar InfrastructureShowcaseA.standardHost.udp packetReceived:sum(packetBytes) 311796
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, sum(packetBytes)"
+scalar InfrastructureShowcaseA.standardHost.udp packetSent:count 0
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, count"
+scalar InfrastructureShowcaseA.standardHost.udp packetSent:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, sum(packetBytes)"
+scalar InfrastructureShowcaseA.standardHost.udp passedUpPk:count 0
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed up, count"
+scalar InfrastructureShowcaseA.standardHost.udp droppedPkWrongPort:count 2887
+attr interpolationmode none
+attr source packetDropReasonIsNoPortFound(packetDropped)
+attr title "packets dropped (wrong port), count"
+scalar InfrastructureShowcaseA.standardHost.udp droppedPkBadChecksum:count 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packets dropped (checksum error), count"
+

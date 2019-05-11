@@ -1,0 +1,634 @@
+file 31673945 1557535168                                        
+version 2
+run Infrastructure-3-20190510-21:39:21-6073
+attr configname Infrastructure
+attr datetime 20190510-21:39:21
+attr experiment Infrastructure
+attr inifile omnetpp.ini
+attr iterationvars "$count=xmldoc(\"routes/3.xml\")"
+attr iterationvarsf count=xmldoc(#22routes#2f3.xml#22)-
+attr measurement "$count=xmldoc(\"routes/3.xml\")"
+attr network InfrastructureShowcaseA
+attr processid 6073
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 3
+attr seedset 3
+itervar count "xmldoc(\"routes/3.xml\")"
+param *.visualizer.*.dataLinkVisualizer.fadeOutAnimationSpeed 0.000005
+param **.constraintAreaMinX 0m
+param **.constraintAreaMaxX 640m
+param **.constraintAreaMinY 0m
+param **.constraintAreaMaxY 420m
+param **.constraintAreaMinZ 0m
+param **.constraintAreaMaxZ 0m
+param *.host1.mobility.typename "\"TurtleMobility\""
+param *.host1.mobility.turtleScript "xmldoc(\"routes/3.xml\")"
+param *.host1.mobility.outputFile "\"posTime.txt\""
+param *.host1.numApps 1
+param *.host1.app[0].typename "\"UdpBasicApp\""
+param *.host1.app[0].destAddresses "\"standardHost\""
+param *.host1.app[0].destPort 1000
+param *.host1.app[0].messageLength 100Byte
+param *.host1.app[0].sendInterval 100ms
+param **.arp.typename "\"GlobalArp\""
+param **.netmaskRoutes "\"\""
+param *.visualizer.*.dataLinkVisualizer.displayLinks true
+param *.visualizer.*.dataLinkVisualizer.activityLevel "\"peer\""
+param *.visualizer.*.ieee80211Visualizer.displayAssociations true
+param **.radio.transmitter.power 2.0mW
+param *.AP*.wlan[*].radio.displayCommunicationRange true
+param **.radioMedium.recordCommunicationLog true
+
+vector 0 InfrastructureShowcaseA.host1.wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 1 InfrastructureShowcaseA.host1.wlan[0].radio radioChannel:vector ETV
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, vector"
+vector 2 InfrastructureShowcaseA.AP3.wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 3 InfrastructureShowcaseA.AP3.wlan[0].radio radioChannel:vector ETV
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, vector"
+vector 4 InfrastructureShowcaseA.AP2.wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 5 InfrastructureShowcaseA.AP2.wlan[0].radio radioChannel:vector ETV
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, vector"
+vector 6 InfrastructureShowcaseA.AP1.wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 7 InfrastructureShowcaseA.AP1.wlan[0].radio radioChannel:vector ETV
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, vector"
+vector 8 InfrastructureShowcaseA.host1.wlan[0].radio receptionState:vector ETV
+attr interpolationmode sample-hold
+attr source receptionStateChanged
+attr title "Radio reception state, vector"
+vector 9 InfrastructureShowcaseA.host1.wlan[0].mac.dcf.channelAccess.contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 10 InfrastructureShowcaseA.host1.wlan[0].mac.hcf.edca.edcaf[0].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 11 InfrastructureShowcaseA.host1.wlan[0].mac.hcf.edca.edcaf[1].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 12 InfrastructureShowcaseA.host1.wlan[0].mac.hcf.edca.edcaf[2].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 13 InfrastructureShowcaseA.host1.wlan[0].mac.hcf.edca.edcaf[3].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 14 InfrastructureShowcaseA.AP3.wlan[0].radio receptionState:vector ETV
+attr interpolationmode sample-hold
+attr source receptionStateChanged
+attr title "Radio reception state, vector"
+vector 15 InfrastructureShowcaseA.AP3.wlan[0].mac.dcf.channelAccess.contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 16 InfrastructureShowcaseA.AP3.wlan[0].mac.hcf.edca.edcaf[0].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 17 InfrastructureShowcaseA.AP3.wlan[0].mac.hcf.edca.edcaf[1].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 18 InfrastructureShowcaseA.AP3.wlan[0].mac.hcf.edca.edcaf[2].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 19 InfrastructureShowcaseA.AP3.wlan[0].mac.hcf.edca.edcaf[3].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 20 InfrastructureShowcaseA.AP2.wlan[0].radio receptionState:vector ETV
+attr interpolationmode sample-hold
+attr source receptionStateChanged
+attr title "Radio reception state, vector"
+vector 21 InfrastructureShowcaseA.AP2.wlan[0].mac.dcf.channelAccess.contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 22 InfrastructureShowcaseA.AP2.wlan[0].mac.hcf.edca.edcaf[0].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 23 InfrastructureShowcaseA.AP2.wlan[0].mac.hcf.edca.edcaf[1].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 24 InfrastructureShowcaseA.AP2.wlan[0].mac.hcf.edca.edcaf[2].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 25 InfrastructureShowcaseA.AP2.wlan[0].mac.hcf.edca.edcaf[3].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 26 InfrastructureShowcaseA.AP1.wlan[0].radio receptionState:vector ETV
+attr interpolationmode sample-hold
+attr source receptionStateChanged
+attr title "Radio reception state, vector"
+vector 27 InfrastructureShowcaseA.AP1.wlan[0].mac.dcf.channelAccess.contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 28 InfrastructureShowcaseA.AP1.wlan[0].mac.hcf.edca.edcaf[0].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 29 InfrastructureShowcaseA.AP1.wlan[0].mac.hcf.edca.edcaf[1].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 30 InfrastructureShowcaseA.AP1.wlan[0].mac.hcf.edca.edcaf[2].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 31 InfrastructureShowcaseA.AP1.wlan[0].mac.hcf.edca.edcaf[3].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 32 InfrastructureShowcaseA.AP3.wlan[0].mac sentDownPk:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetSentToLower
+attr title "packets sent to lower layer, vector(packetBytes)"
+vector 33 InfrastructureShowcaseA.AP3.wlan[0].radio transmissionState:vector ETV
+attr interpolationmode sample-hold
+attr source transmissionStateChanged
+attr title "Radio transmission state, vector"
+vector 34 InfrastructureShowcaseA.AP2.wlan[0].mac sentDownPk:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetSentToLower
+attr title "packets sent to lower layer, vector(packetBytes)"
+vector 35 InfrastructureShowcaseA.AP2.wlan[0].radio transmissionState:vector ETV
+attr interpolationmode sample-hold
+attr source transmissionStateChanged
+attr title "Radio transmission state, vector"
+vector 36 InfrastructureShowcaseA.AP1.wlan[0].mac sentDownPk:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetSentToLower
+attr title "packets sent to lower layer, vector(packetBytes)"
+vector 37 InfrastructureShowcaseA.AP1.wlan[0].radio transmissionState:vector ETV
+attr interpolationmode sample-hold
+attr source transmissionStateChanged
+attr title "Radio transmission state, vector"
+vector 38 InfrastructureShowcaseA.host1.wlan[0].mac rcvdPkFromLl:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetReceivedFromLower
+attr title "packets received from lower layer, vector(packetBytes)"
+vector 39 InfrastructureShowcaseA.host1.app[0] packetSent:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, vector(packetBytes)"
+vector 40 InfrastructureShowcaseA.host1.udp packetSent:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, vector(packetBytes)"
+vector 41 InfrastructureShowcaseA.host1.wlan[0].mac rcvdPkFromHl:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packets received from higher layer, vector(packetBytes)"
+vector 42 InfrastructureShowcaseA.host1.wlan[0].agent sentRequest:vector ETV
+attr title "sent requests, vector"
+vector 43 InfrastructureShowcaseA.host1.wlan[0].mac sentDownPk:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetSentToLower
+attr title "packets sent to lower layer, vector(packetBytes)"
+vector 44 InfrastructureShowcaseA.host1.wlan[0].radio transmissionState:vector ETV
+attr interpolationmode sample-hold
+attr source transmissionStateChanged
+attr title "Radio transmission state, vector"
+vector 45 InfrastructureShowcaseA.AP1.wlan[0].mac rcvdPkFromLl:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetReceivedFromLower
+attr title "packets received from lower layer, vector(packetBytes)"
+vector 46 InfrastructureShowcaseA.host1.wlan[0].agent acceptConfirm:vector ETV
+attr title "accepted confirms, vector"
+vector 47 InfrastructureShowcaseA.AP1.wlan[0].mac passedUpPk:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+vector 48 InfrastructureShowcaseA.AP1.eth[0].mac packetReceivedFromUpper:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packet bytes from higher layer, vector(packetBytes)"
+vector 49 InfrastructureShowcaseA.AP1.eth[0].mac txPk:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetSentToLower
+attr title "packets transmitted, vector(packetBytes)"
+vector 50 InfrastructureShowcaseA.etherSwitch.eth[1].mac rxPkOk:vector(packetBytes) ETV
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+vector 51 InfrastructureShowcaseA.etherSwitch.eth[1].mac passedUpPk:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+vector 52 InfrastructureShowcaseA.etherSwitch.eth[0].mac packetReceivedFromUpper:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packet bytes from higher layer, vector(packetBytes)"
+vector 53 InfrastructureShowcaseA.etherSwitch.eth[2].mac packetReceivedFromUpper:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packet bytes from higher layer, vector(packetBytes)"
+vector 54 InfrastructureShowcaseA.etherSwitch.eth[3].mac packetReceivedFromUpper:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packet bytes from higher layer, vector(packetBytes)"
+vector 55 InfrastructureShowcaseA.etherSwitch.eth[0].mac txPk:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetSentToLower
+attr title "packets transmitted, vector(packetBytes)"
+vector 56 InfrastructureShowcaseA.etherSwitch.eth[2].mac txPk:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetSentToLower
+attr title "packets transmitted, vector(packetBytes)"
+vector 57 InfrastructureShowcaseA.etherSwitch.eth[3].mac txPk:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetSentToLower
+attr title "packets transmitted, vector(packetBytes)"
+vector 58 InfrastructureShowcaseA.AP3.eth[0].mac rxPkOk:vector(packetBytes) ETV
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+vector 59 InfrastructureShowcaseA.AP3.eth[0].mac passedUpPk:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+vector 60 InfrastructureShowcaseA.AP2.eth[0].mac rxPkOk:vector(packetBytes) ETV
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+vector 61 InfrastructureShowcaseA.AP2.eth[0].mac passedUpPk:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+vector 62 InfrastructureShowcaseA.standardHost.eth[0].mac rxPkOk:vector(packetBytes) ETV
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+vector 63 InfrastructureShowcaseA.standardHost.eth[0].mac passedUpPk:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+vector 64 InfrastructureShowcaseA.standardHost.eth[0].encap decapPk:vector(packetBytes) ETV
+attr interpolationmode none
+attr source decapPk
+attr title "packets decapsulated, vector(packetBytes)"
+vector 65 InfrastructureShowcaseA.AP3.wlan[0].mac rcvdPkFromHl:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packets received from higher layer, vector(packetBytes)"
+vector 66 InfrastructureShowcaseA.AP2.wlan[0].mac rcvdPkFromHl:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packets received from higher layer, vector(packetBytes)"
+vector 67 InfrastructureShowcaseA.standardHost.udp packetReceived:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, vector(packetBytes)"
+vector 68 InfrastructureShowcaseA.standardHost.udp droppedPkWrongPort:vector(count) ETV
+attr interpolationmode none
+attr source packetDropReasonIsNoPortFound(packetDropped)
+attr title "packets dropped (wrong port), vector(count)"
+vector 69 InfrastructureShowcaseA.standardHost.eth[0].encap encapPk:vector(packetBytes) ETV
+attr interpolationmode none
+attr source encapPk
+attr title "packets encapsulated, vector(packetBytes)"
+vector 70 InfrastructureShowcaseA.standardHost.eth[0].mac packetReceivedFromUpper:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packet bytes from higher layer, vector(packetBytes)"
+vector 71 InfrastructureShowcaseA.standardHost.eth[0].mac txPk:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetSentToLower
+attr title "packets transmitted, vector(packetBytes)"
+vector 72 InfrastructureShowcaseA.etherSwitch.eth[3].mac rxPkOk:vector(packetBytes) ETV
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+vector 73 InfrastructureShowcaseA.etherSwitch.eth[3].mac passedUpPk:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+vector 74 InfrastructureShowcaseA.etherSwitch.eth[1].mac packetReceivedFromUpper:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packet bytes from higher layer, vector(packetBytes)"
+vector 75 InfrastructureShowcaseA.etherSwitch.eth[1].mac txPk:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetSentToLower
+attr title "packets transmitted, vector(packetBytes)"
+vector 76 InfrastructureShowcaseA.AP1.eth[0].mac rxPkOk:vector(packetBytes) ETV
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+vector 77 InfrastructureShowcaseA.AP1.eth[0].mac passedUpPk:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+vector 78 InfrastructureShowcaseA.AP1.wlan[0].mac rcvdPkFromHl:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packets received from higher layer, vector(packetBytes)"
+vector 79 InfrastructureShowcaseA.host1.wlan[0].mac passedUpPk:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+vector 80 InfrastructureShowcaseA.AP3.wlan[0].mac rcvdPkFromLl:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetReceivedFromLower
+attr title "packets received from lower layer, vector(packetBytes)"
+vector 81 InfrastructureShowcaseA.AP3.wlan[0].mac packetDropNotAddressedToUs:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetDropReasonIsNotAddressedToUs(packetDropped)
+attr title "packet drop: not addressed to us, vector(packetBytes)"
+vector 82 InfrastructureShowcaseA.AP2.wlan[0].mac rcvdPkFromLl:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetReceivedFromLower
+attr title "packets received from lower layer, vector(packetBytes)"
+vector 83 InfrastructureShowcaseA.AP2.wlan[0].mac packetDropNotAddressedToUs:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetDropReasonIsNotAddressedToUs(packetDropped)
+attr title "packet drop: not addressed to us, vector(packetBytes)"
+vector 84 InfrastructureShowcaseA.host1.wlan[0].mac packetDropRetryLimitReached:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetDropReasonIsRetryLimitReached(packetDropped)
+attr title "packet drop: retry limit reached, vector(packetBytes)"
+vector 85 InfrastructureShowcaseA.AP3.wlan[0].mac passedUpPk:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+vector 86 InfrastructureShowcaseA.AP3.eth[0].mac packetReceivedFromUpper:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packet bytes from higher layer, vector(packetBytes)"
+vector 87 InfrastructureShowcaseA.AP3.eth[0].mac txPk:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetSentToLower
+attr title "packets transmitted, vector(packetBytes)"
+vector 88 InfrastructureShowcaseA.etherSwitch.eth[0].mac rxPkOk:vector(packetBytes) ETV
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+vector 89 InfrastructureShowcaseA.etherSwitch.eth[0].mac passedUpPk:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+vector 90 InfrastructureShowcaseA.AP1.wlan[0].mac packetDropNotAddressedToUs:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetDropReasonIsNotAddressedToUs(packetDropped)
+attr title "packet drop: not addressed to us, vector(packetBytes)"
+0	19715 123153 0 210991 0 137.000839314113 5511 0 3 13772 35806
+1	142868 152 0 64524 0 41.876127214 7 0 0 0 0
+2	143020 176535 0 211008 0 137.004109073755 6567 0 3 16412 42670
+3	319555 8 0 0 0 0 1 0 0 0 0
+4	319563 73205 0 211030 0 137.020770287862 2747 0 3 6862 17840
+5	392768 8 0 0 0 0 1 0 0 0 0
+6	392776 114908 0 211045 0 137.024834830173 4383 0 3 10952 28474
+7	507684 8 0 0 0 0 1 0 0 0 0
+8	507692 386998 0 211046 0 137.024835235836 15445 0 3 22625 52425
+9	894690 731794 0 211046 0 137.024835235836 30982 0 2 5602 11186
+10	1626484 670422 0 211046 0 137.024835235836 25434 0 0 0 0
+11	2296906 670364 0 211041 0 137.024789235836 25432 0 0 0 0
+12	2967270 670364 0 211041 0 137.024789235836 25432 0 0 0 0
+13	3637634 670364 0 211041 0 137.024789235836 25432 0 0 0 0
+14	4307998 318908 0 211008 0 137.004109073755 11453 0 3 13059 27723
+15	4626906 819306 0 211008 0 137.004109073755 29494 0 2 11236 20560
+16	5446212 560314 0 211008 0 137.004109073755 20186 0 0 0 0
+17	6006526 560314 0 211008 0 137.004109073755 20186 0 0 0 0
+18	6566840 560314 0 211008 0 137.004109073755 20186 0 0 0 0
+19	7127154 560314 0 211008 0 137.004109073755 20186 0 0 0 0
+20	7687468 121478 0 211030 0 137.020770287862 4421 0 3 4721 9733
+21	7808946 441008 0 211030 0 137.020770287862 16030 0 2 5488 10976
+22	8249954 289160 0 211030 0 137.020770287862 10542 0 0 0 0
+23	8539114 289160 0 211030 0 137.020770287862 10542 0 0 0 0
+24	8828274 289160 0 211030 0 137.020770287862 10542 0 0 0 0
+25	9117434 289160 0 211030 0 137.020770287862 10542 0 0 0 0
+26	9406594 186105 0 211045 0 137.024834830173 6831 0 3 7082 14396
+27	9592699 546830 0 211045 0 137.024834830173 19938 0 2 7954 15090
+28	10139529 351646 0 211045 0 137.024834830173 12814 0 0 0 0
+29	10491175 351646 0 211045 0 137.024834830173 12814 0 0 0 0
+30	10842821 351646 0 211045 0 137.024834830173 12814 0 0 0 0
+31	11194467 351646 0 211045 0 137.024834830173 12814 0 0 0 0
+32	11546113 94818 5 211001 0.004063073755 137.004063073755 3282 14 92 166914 11409604
+33	11640931 366150 6 211008 0.004063073755 137.004109073755 13128 0 2 13128 19692
+34	12007081 39334 21 211023 0.020724287862 137.020724287862 1372 48 48 65856 3161088
+35	12046415 151850 22 211030 0.020724287862 137.020770287862 5488 0 2 5488 8232
+36	12198265 61821 36 211038 0.024788830173 137.024788830173 2190 14 92 109038 6681244
+37	12260086 238527 37 211045 0.024788830173 137.024834830173 8760 0 2 8760 13140
+38	12498613 141781 45 211010 0.024835517071 137.004109730924 4965 14 92 251616 16922720
+39	12640394 25306 52 210898 0.1 137 1370 100 100 137000 13700000
+40	12665700 25306 54 210899 0.1 137 1370 108 108 147960 15979680
+41	12691006 25306 57 210902 0.1 137 1370 136 136 186320 25339520
+42	12716312 150 107 64520 0.131118582026 41.876127214 6 1 4 14 42
+43	12716462 64912 171 210983 0.231118582026 137.000805314113 2754 14 164 245566 37366780
+44	12781374 257274 172 210991 0.231118582026 137.000839314113 11016 0 2 11016 16524
+45	13038648 34990 180 210993 0.231157262587 137.000839719907 1216 14 164 107704 16368984
+46	13073638 150 386 64585 0.531118582026 41.877219992084 6 1 4 14 42
+47	13073788 11575 599 63354 0.60008266926 41.10008282695 406 136 136 55216 7509376
+48	13085363 11575 602 63357 0.60008266926 41.10008282695 406 146 146 59276 8654296
+49	13096938 11575 612 63365 0.60009498926 41.10009514695 406 146 146 59276 8654296
+50	13108513 11575 613 63366 0.60009503926 41.10009519695 406 146 146 59276 8654296
+51	13120088 11575 613 63366 0.60009503926 41.10009519695 406 146 146 59276 8654296
+52	13131663 27684 615 210947 0.60009503926 137.000114007045 953 74 146 70594 5234468
+53	13159347 25 616 616 0.60009503926 0.60009503926 1 146 146 146 21316
+54	13159372 40186 617 210931 0.60009503926 137.000095027045 1358 146 146 198268 28947128
+55	13199558 27684 620 210950 0.60010735926 137.000120567045 953 74 146 70594 5234468
+56	13227242 25 621 621 0.60010735926 0.60010735926 1 146 146 146 21316
+57	13227267 40186 622 210934 0.60010735926 137.000107347045 1358 146 146 198268 28947128
+58	13267453 27684 623 210951 0.60010740926 137.000120617045 953 74 146 70594 5234468
+59	13295137 27684 623 210951 0.60010740926 137.000120617045 953 74 146 70594 5234468
+60	13322821 25 624 624 0.60010740926 0.60010740926 1 146 146 146 21316
+61	13322846 25 624 624 0.60010740926 0.60010740926 1 146 146 146 21316
+62	13322871 40186 625 210935 0.60010740926 137.000107397045 1358 146 146 198268 28947128
+63	13363057 40186 625 210935 0.60010740926 137.000107397045 1358 146 146 198268 28947128
+64	13403243 40186 628 210936 0.60010740926 137.000107397045 1358 128 128 173824 22249472
+65	13443429 27684 632 210954 0.60010740926 137.000120617045 953 64 136 61064 3917888
+66	13471113 25 633 633 0.60010740926 0.60010740926 1 136 136 136 18496
+67	13471138 40186 634 210938 0.60010740926 137.000107397045 1358 108 108 146664 15839712
+68	13511324 40437 634 210938 0.60010740926 137.000107397045 1358 1 1358 922761 835713879
+69	13551761 38829 636 210940 0.60010740926 137.000107397045 1358 56 56 76048 4258688
+70	13590590 38829 637 210941 0.60010740926 137.000107397045 1358 74 74 100492 7436408
+71	13629419 38829 642 210944 0.60011396926 137.000113957045 1358 74 74 100492 7436408
+72	13668248 38829 643 210945 0.60011401926 137.000114007045 1358 74 74 100492 7436408
+73	13707077 38829 643 210945 0.60011401926 137.000114007045 1358 74 74 100492 7436408
+74	13745906 11170 645 63384 0.60011401926 41.10011417695 406 74 74 30044 2223256
+75	13757076 11170 648 63387 0.60012057926 41.10012073695 406 74 74 30044 2223256
+76	13768246 11170 649 63388 0.60012062926 41.10012078695 406 74 74 30044 2223256
+77	13779416 11170 649 63388 0.60012062926 41.10012078695 406 74 74 30044 2223256
+78	13790586 11170 652 63391 0.60012062926 41.10012078695 406 64 64 25984 1662976
+79	13801756 38812 672 210975 0.600775338498 137.000795314113 1358 64 64 86912 5562368
+80	13840568 71584 23420 210995 15.700082829422 137.000839971183 2444 14 164 218496 33270472
+81	13912152 15115 23420 64196 15.700082829422 41.575475293178 532 14 164 48848 7473472
+82	13927267 23919 53376 117440 34.90008282695 75.700440327417 834 14 164 75206 11461412
+83	13951186 23863 53376 117440 34.90008282695 75.700440327417 832 14 164 75160 11460192
+84	13975049 86 63655 64089 41.218544455924 41.481601917117 3 164 164 492 80688
+85	13975135 28611 64631 210916 41.900082389299 137.000082657045 952 136 136 129472 17608192
+86	14003746 28611 64634 210919 41.900082389299 137.000082657045 952 146 146 138992 20292832
+87	14032357 28611 64645 210928 41.900094709299 137.000094977045 952 146 146 138992 20292832
+88	14060968 28611 64646 210929 41.900094759299 137.000095027045 952 146 146 138992 20292832
+89	14089579 28611 64646 210929 41.900094759299 137.000095027045 952 146 146 138992 20292832
+90	14118190 12045 180188 210993 117.300082827138 137.000839719907 396 14 164 35244 5364216
+0	14130235 120146 211062 409136 137.1 264.2 5085 2 3 12713 33055
+2	14250381 212964 211079 409082 137.100092660095 264.104109073755 7626 2 3 19065 49569
+4	14463345 71176 211180 409104 137.120724287862 264.120770287862 2542 2 3 6355 16523
+6	14534521 71176 211195 409121 137.124788830173 264.124834830173 2542 2 3 6355 16523
+8	14605697 401952 211062 409136 137.1 264.2 15189 0 3 22741 53017
+9	15007649 762412 211058 409136 137.1 264.2 30382 0 2 5088 10176
+10	15770061 702226 211062 409136 137.1 264.2 25294 0 0 0 0
+11	16472287 702284 211046 409136 137.024835235836 264.2 25296 0 0 0 0
+12	17174571 702266 211046 409136 137.024835235836 264.2 25295 0 0 0 0
+13	17876837 702248 211046 409105 137.024835235836 264.120770934709 25294 0 0 0 0
+14	18579085 367472 211065 409082 137.100000660095 264.104109073755 12710 0 3 13981 29233
+15	18946557 882370 211065 409082 137.100000660095 264.104109073755 30504 0 2 12710 22878
+16	19828927 588062 211065 409082 137.100000660095 264.104109073755 20336 0 0 0 0
+17	20416989 588062 211065 409082 137.100000660095 264.104109073755 20336 0 0 0 0
+18	21005051 588062 211065 409082 137.100000660095 264.104109073755 20336 0 0 0 0
+19	21593113 588062 211065 409082 137.100000660095 264.104109073755 20336 0 0 0 0
+20	22181175 182534 211180 409104 137.120724287862 264.120770287862 6310 0 3 8797 20061
+21	22363709 620736 211176 409104 137.120724287862 264.120770287862 21452 0 2 5084 10168
+22	22984445 473300 211180 409104 137.120724287862 264.120770287862 16368 0 0 0 0
+23	23457745 473300 211180 409104 137.120724287862 264.120770287862 16368 0 0 0 0
+24	23931045 473300 211180 409104 137.120724287862 264.120770287862 16368 0 0 0 0
+25	24404345 473300 211180 409104 137.120724287862 264.120770287862 16368 0 0 0 0
+26	24877645 107832 211064 409121 137.100000405263 264.124834830173 3722 0 3 3629 7161
+27	24985477 397088 211064 409121 137.100000405263 264.124834830173 13704 0 2 5084 10168
+28	25382565 249652 211064 409121 137.100000405263 264.124834830173 8620 0 0 0 0
+29	25632217 249652 211064 409121 137.100000405263 264.124834830173 8620 0 0 0 0
+30	25881869 249652 211064 409121 137.100000405263 264.124834830173 8620 0 0 0 0
+31	26131521 249652 211064 409121 137.100000405263 264.124834830173 8620 0 0 0 0
+32	26381173 114108 211078 409075 137.100092660095 264.104063073755 3813 14 92 195734 13935244
+33	26495281 441180 211079 409082 137.100092660095 264.104109073755 15252 0 2 15252 22878
+34	26936461 38130 211179 409097 137.120724287862 264.120724287862 1271 48 48 61008 2928384
+35	26974591 147436 211180 409104 137.120724287862 264.120770287862 5084 0 2 5084 7626
+36	27122027 38130 211194 409114 137.124788830173 264.124788830173 1271 48 48 61008 2928384
+37	27160157 147436 211195 409121 137.124788830173 264.124834830173 5084 0 2 5084 7626
+38	27307593 150771 211047 409106 137.024835235836 264.120770934709 5044 14 92 254822 16771468
+39	27458364 25186 211054 409128 137.1 264.2 1272 100 100 127200 12720000
+40	27483550 25186 211055 409129 137.1 264.2 1272 108 108 137376 14836608
+41	27508736 25186 211058 409132 137.1 264.2 1272 136 136 172992 23526912
+43	27533922 63135 211061 409135 137.1 264.2 2543 14 164 226402 34460828
+44	27597057 250426 211062 409065 137.1 264.100379076155 10168 0 2 10168 15252
+45	27847483 17881 211070 375720 137.100082405263 242.600799405645 588 14 164 52332 7965048
+52	27865364 37989 211103 409021 137.100114010095 264.100113888073 1271 74 74 94054 6959996
+54	27903353 39260 211087 409005 137.100095030095 264.100094908073 1271 146 146 185566 27092636
+55	27942613 37989 211106 409024 137.100120570095 264.100120448073 1271 74 74 94054 6959996
+57	27980602 39260 211090 409008 137.100107350095 264.100107228073 1271 146 146 185566 27092636
+58	28019862 37989 211107 409025 137.100120620095 264.100120498073 1271 74 74 94054 6959996
+59	28057851 37989 211107 409025 137.100120620095 264.100120498073 1271 74 74 94054 6959996
+62	28095840 39260 211091 409009 137.100107400095 264.100107278073 1271 146 146 185566 27092636
+63	28135100 39260 211091 409009 137.100107400095 264.100107278073 1271 146 146 185566 27092636
+64	28174360 39260 211092 409010 137.100107400095 264.100107278073 1271 128 128 162688 20824064
+65	28213620 37989 211110 409028 137.100120620095 264.100120498073 1271 64 64 81344 5206016
+67	28251609 39260 211094 409012 137.100107400095 264.100107278073 1271 108 108 137268 14824944
+68	28290869 40531 211094 409012 137.100107400095 264.100107278073 1271 1359 2629 2534374 5224643776
+69	28331400 37989 211096 409014 137.100107400095 264.100107278073 1271 56 56 71176 3985856
+70	28369389 37989 211097 409015 137.100107400095 264.100107278073 1271 74 74 94054 6959996
+71	28407378 37989 211100 409018 137.100113960095 264.100113838073 1271 74 74 94054 6959996
+72	28445367 37989 211101 409019 137.100114010095 264.100113888073 1271 74 74 94054 6959996
+73	28483356 37989 211101 409019 137.100114010095 264.100113888073 1271 74 74 94054 6959996
+79	28521345 37949 211131 409049 137.100235320195 264.100335076155 1271 64 64 81344 5206016
+80	28559294 77254 211072 409067 137.100082660095 264.10037961424 2542 14 164 226238 34433932
+82	28636548 56929 220594 409069 143.200082827911 264.100379723138 1874 14 164 166786 25385204
+83	28693477 56929 220594 409069 143.200082827911 264.100379723138 1874 14 164 166786 25385204
+85	28750406 39260 211072 408988 137.100082660095 264.100082538073 1271 136 136 172856 23508416
+86	28789666 39260 211075 408991 137.100082660095 264.100082538073 1271 146 146 185566 27092636
+87	28828926 39260 211084 409002 137.100094980095 264.100094858073 1271 146 146 185566 27092636
+88	28868186 39260 211085 409003 137.100095030095 264.100094908073 1271 146 146 185566 27092636
+89	28907446 39260 211085 409003 137.100095030095 264.100094908073 1271 146 146 185566 27092636
+90	28946706 17881 211070 375720 137.100082405263 242.600799405645 588 14 164 52332 7965048
+vector 91 InfrastructureShowcaseA.host1.app[0] throughput:vector ETV
+attr source throughput(packetReceived)
+attr title "throughput, vector"
+attr unit bps
+0	28964741 24394 409142 448674 264.200082 290 1032 2 3 2580 6708
+2	28989135 43216 409153 448622 264.200092541402 289.904109073755 1548 2 3 3870 10062
+4	29032351 14448 409254 448644 264.220724287862 289.920770287862 516 2 3 1290 3354
+6	29046799 14448 409271 448659 264.224788830173 289.924834830173 516 2 3 1290 3354
+8	29061247 74098 409142 448674 264.200082 290 2814 0 3 4079 9421
+9	29135345 139754 409190 448674 264.200127082807 290 5628 0 2 1032 2064
+10	29275099 127014 409190 448674 264.200127082807 290 4596 0 0 0 0
+11	29402113 127014 409190 448674 264.200127082807 290 4596 0 0 0 0
+12	29529127 127032 409136 448674 264.2 290 4597 0 0 0 0
+13	29656159 127050 409136 448674 264.2 290 4598 0 0 0 0
+14	29783209 74582 409138 448622 264.200000541402 289.904109073755 2580 0 3 2838 5934
+15	29857791 179074 409138 448622 264.200000541402 289.904109073755 6192 0 2 2580 4644
+16	30036865 119346 409138 448622 264.200000541402 289.904109073755 4128 0 0 0 0
+17	30156211 119346 409138 448622 264.200000541402 289.904109073755 4128 0 0 0 0
+18	30275557 119346 409138 448622 264.200000541402 289.904109073755 4128 0 0 0 0
+19	30394903 119346 409138 448622 264.200000541402 289.904109073755 4128 0 0 0 0
+20	30514249 28502 409139 448644 264.200000646323 289.920770287862 984 0 3 1192 2588
+21	30542751 100352 409139 448644 264.200000646323 289.920770287862 3464 0 2 1032 2064
+22	30643103 70424 409139 448644 264.200000646323 289.920770287862 2432 0 0 0 0
+23	30713527 70424 409139 448644 264.200000646323 289.920770287862 2432 0 0 0 0
+24	30783951 70424 409139 448644 264.200000646323 289.920770287862 2432 0 0 0 0
+25	30854375 70424 409139 448644 264.200000646323 289.920770287862 2432 0 0 0 0
+26	30924799 14964 409271 448659 264.224788830173 289.924834830173 516 0 1 258 258
+27	30939763 59856 409267 448659 264.224788830173 289.924834830173 2064 0 2 1032 2064
+28	30999619 29928 409271 448659 264.224788830173 289.924834830173 1032 0 0 0 0
+29	31029547 29928 409271 448659 264.224788830173 289.924834830173 1032 0 0 0 0
+30	31059475 29928 409271 448659 264.224788830173 289.924834830173 1032 0 0 0 0
+31	31089403 29928 409271 448659 264.224788830173 289.924834830173 1032 0 0 0 0
+32	31119331 23156 409152 448615 264.200092541402 289.904063073755 774 14 92 39732 2828712
+33	31142487 89528 409153 448622 264.200092541402 289.904109073755 3096 0 2 3096 4644
+34	31232015 7740 409253 448637 264.220724287862 289.920724287862 258 48 48 12384 594432
+35	31239755 29928 409254 448644 264.220724287862 289.920770287862 1032 0 2 1032 1548
+36	31269683 7740 409270 448652 264.224788830173 289.924788830173 258 48 48 12384 594432
+37	31277423 29928 409271 448659 264.224788830173 289.924834830173 1032 0 2 1032 1548
+38	31307351 26604 409191 448624 264.200127082807 289.904109576665 890 14 92 45300 3095976
+39	31333955 5108 409284 448666 264.3 290 258 100 100 25800 2580000
+40	31339063 5108 409285 448667 264.3 290 258 108 108 27864 3009312
+41	31344171 5108 409288 448670 264.3 290 258 136 136 35088 4771968
+43	31349279 12816 409213 448673 264.200685082825 290 516 14 164 45924 6989736
+44	31362095 50888 409136 448675 264.2 290 2066 0 2 2067 3101
+52	31412983 7708 409177 448563 264.200113891402 289.900113853019 258 74 74 19092 1412808
+54	31420691 7966 409161 448547 264.200094911402 289.900094873019 258 146 146 37668 5499528
+55	31428657 7708 409180 448566 264.200120451402 289.900120413019 258 74 74 19092 1412808
+57	31436365 7966 409164 448550 264.200107231402 289.900107193019 258 146 146 37668 5499528
+58	31444331 7708 409181 448567 264.200120501402 289.900120463019 258 74 74 19092 1412808
+59	31452039 7708 409181 448567 264.200120501402 289.900120463019 258 74 74 19092 1412808
+62	31459747 7966 409165 448551 264.200107281402 289.900107243019 258 146 146 37668 5499528
+63	31467713 7966 409165 448551 264.200107281402 289.900107243019 258 146 146 37668 5499528
+64	31475679 7966 409166 448552 264.200107281402 289.900107243019 258 128 128 33024 4227072
+65	31483645 7708 409184 448570 264.200120501402 289.900120463019 258 64 64 16512 1056768
+67	31491353 7966 409168 448554 264.200107281402 289.900107243019 258 108 108 27864 3009312
+68	31499319 8224 409168 448554 264.200107281402 289.900107243019 258 2630 2887 711693 1964636245
+69	31507543 7708 409170 448556 264.200107281402 289.900107243019 258 56 56 14448 809088
+70	31515251 7708 409171 448557 264.200107281402 289.900107243019 258 74 74 19092 1412808
+71	31522959 7708 409174 448560 264.200113841402 289.900113803019 258 74 74 19092 1412808
+72	31530667 7708 409175 448561 264.200113891402 289.900113853019 258 74 74 19092 1412808
+73	31538375 7708 409175 448561 264.200113891402 289.900113853019 258 74 74 19092 1412808
+79	31546083 7708 409205 448590 264.200675082825 289.900555006024 258 64 64 16512 1056768
+80	31553791 15683 409144 448608 264.200082541402 289.900599509028 516 14 164 45924 6989736
+82	31569474 7059 409150 427165 264.200082646323 275.700740327429 232 14 164 20648 3142672
+83	31576533 7059 409150 427165 264.200082646323 275.700740327429 232 14 164 20648 3142672
+85	31583592 7966 409144 448531 264.200082541402 289.900082503019 258 136 136 35088 4771968
+86	31591558 7966 409147 448534 264.200082541402 289.900082503019 258 146 146 37668 5499528
+87	31599524 7966 409158 448544 264.200094861402 289.900094823019 258 146 146 37668 5499528
+88	31607490 7966 409159 448545 264.200094911402 289.900094873019 258 146 146 37668 5499528
+89	31615456 7966 409159 448545 264.200094911402 289.900094873019 258 146 146 37668 5499528
+91	31623422 50522 448676 448676 0.1 290 2900 0 0 0 0
+

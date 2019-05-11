@@ -1,0 +1,204 @@
+file 8014 1557528005                                            
+version 2
+run Infrastructure-7-20190510-19:40:01-2886
+attr configname Infrastructure
+attr datetime 20190510-19:40:01
+attr experiment Infrastructure
+attr inifile omnetpp.ini
+attr iterationvars "$count=xmldoc(\"routes/7.xml\")"
+attr iterationvarsf count=xmldoc(#22routes#2f7.xml#22)-
+attr measurement "$count=xmldoc(\"routes/7.xml\")"
+attr network InfrastructureShowcaseA
+attr processid 2886
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 7
+attr seedset 7
+itervar count "xmldoc(\"routes/7.xml\")"
+param *.visualizer.*.dataLinkVisualizer.fadeOutAnimationSpeed 0.000005
+param **.constraintAreaMinX 0m
+param **.constraintAreaMaxX 640m
+param **.constraintAreaMinY 0m
+param **.constraintAreaMaxY 420m
+param **.constraintAreaMinZ 0m
+param **.constraintAreaMaxZ 0m
+param *.host1.mobility.typename "\"TurtleMobility\""
+param *.host1.mobility.turtleScript "xmldoc(\"routes/7.xml\")"
+param *.host1.mobility.outputFile "\"saida.txt\""
+param *.host1.numApps 1
+param *.host1.app[0].typename "\"UdpBasicApp\""
+param *.host1.app[0].destAddresses "\"standardHost\""
+param *.host1.app[0].destPort 1000
+param *.host1.app[0].messageLength 100Byte
+param *.host1.app[0].sendInterval 100ms
+param **.arp.typename "\"GlobalArp\""
+param **.netmaskRoutes "\"\""
+param *.visualizer.*.dataLinkVisualizer.displayLinks true
+param *.visualizer.*.dataLinkVisualizer.activityLevel "\"peer\""
+param *.visualizer.*.ieee80211Visualizer.displayAssociations true
+param **.radio.transmitter.power 2.0mW
+param *.AP*.wlan[*].radio.displayCommunicationRange true
+param **.radioMedium.recordCommunicationLog true
+
+vector 0 InfrastructureShowcaseA.host1.wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 1 InfrastructureShowcaseA.host1.wlan[0].radio radioChannel:vector ETV
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, vector"
+vector 2 InfrastructureShowcaseA.AP3.wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 3 InfrastructureShowcaseA.AP3.wlan[0].radio radioChannel:vector ETV
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, vector"
+vector 4 InfrastructureShowcaseA.AP2.wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 5 InfrastructureShowcaseA.AP2.wlan[0].radio radioChannel:vector ETV
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, vector"
+vector 6 InfrastructureShowcaseA.AP1.wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 7 InfrastructureShowcaseA.AP1.wlan[0].radio radioChannel:vector ETV
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, vector"
+vector 8 InfrastructureShowcaseA.host1.wlan[0].radio receptionState:vector ETV
+attr interpolationmode sample-hold
+attr source receptionStateChanged
+attr title "Radio reception state, vector"
+vector 9 InfrastructureShowcaseA.host1.wlan[0].mac.dcf.channelAccess.contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 10 InfrastructureShowcaseA.host1.wlan[0].mac.hcf.edca.edcaf[0].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 11 InfrastructureShowcaseA.host1.wlan[0].mac.hcf.edca.edcaf[1].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 12 InfrastructureShowcaseA.host1.wlan[0].mac.hcf.edca.edcaf[2].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 13 InfrastructureShowcaseA.host1.wlan[0].mac.hcf.edca.edcaf[3].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 14 InfrastructureShowcaseA.AP3.wlan[0].radio receptionState:vector ETV
+attr interpolationmode sample-hold
+attr source receptionStateChanged
+attr title "Radio reception state, vector"
+vector 15 InfrastructureShowcaseA.AP3.wlan[0].mac.dcf.channelAccess.contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 16 InfrastructureShowcaseA.AP3.wlan[0].mac.hcf.edca.edcaf[0].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 17 InfrastructureShowcaseA.AP3.wlan[0].mac.hcf.edca.edcaf[1].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 18 InfrastructureShowcaseA.AP3.wlan[0].mac.hcf.edca.edcaf[2].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 19 InfrastructureShowcaseA.AP3.wlan[0].mac.hcf.edca.edcaf[3].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 20 InfrastructureShowcaseA.AP2.wlan[0].radio receptionState:vector ETV
+attr interpolationmode sample-hold
+attr source receptionStateChanged
+attr title "Radio reception state, vector"
+vector 21 InfrastructureShowcaseA.AP2.wlan[0].mac.dcf.channelAccess.contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 22 InfrastructureShowcaseA.AP2.wlan[0].mac.hcf.edca.edcaf[0].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 23 InfrastructureShowcaseA.AP2.wlan[0].mac.hcf.edca.edcaf[1].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 24 InfrastructureShowcaseA.AP2.wlan[0].mac.hcf.edca.edcaf[2].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 25 InfrastructureShowcaseA.AP2.wlan[0].mac.hcf.edca.edcaf[3].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 26 InfrastructureShowcaseA.AP1.wlan[0].radio receptionState:vector ETV
+attr interpolationmode sample-hold
+attr source receptionStateChanged
+attr title "Radio reception state, vector"
+vector 27 InfrastructureShowcaseA.AP1.wlan[0].mac.dcf.channelAccess.contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 28 InfrastructureShowcaseA.AP1.wlan[0].mac.hcf.edca.edcaf[0].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 29 InfrastructureShowcaseA.AP1.wlan[0].mac.hcf.edca.edcaf[1].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 30 InfrastructureShowcaseA.AP1.wlan[0].mac.hcf.edca.edcaf[2].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+vector 31 InfrastructureShowcaseA.AP1.wlan[0].mac.hcf.edca.edcaf[3].contention state:vector ETV
+attr interpolationmode none
+attr source stateChanged
+attr title "contention state, vector"
+0	7492 24 0 0 0 0 3 0 2 2 4
+1	7516 8 0 0 0 0 1 0 0 0 0
+2	7524 24 0 0 0 0 3 0 2 2 4
+3	7548 8 0 0 0 0 1 0 0 0 0
+4	7556 24 0 0 0 0 3 0 2 2 4
+5	7580 8 0 0 0 0 1 0 0 0 0
+6	7588 24 0 0 0 0 3 0 2 2 4
+7	7612 8 0 0 0 0 1 0 0 0 0
+8	7620 8 0 0 0 0 1 1 1 1 1
+9	7628 16 0 0 0 0 2 0 0 0 0
+10	7644 18 0 0 0 0 2 0 0 0 0
+11	7662 18 0 0 0 0 2 0 0 0 0
+12	7680 18 0 0 0 0 2 0 0 0 0
+13	7698 18 0 0 0 0 2 0 0 0 0
+14	7716 9 0 0 0 0 1 1 1 1 1
+15	7725 18 0 0 0 0 2 0 0 0 0
+16	7743 18 0 0 0 0 2 0 0 0 0
+17	7761 18 0 0 0 0 2 0 0 0 0
+18	7779 18 0 0 0 0 2 0 0 0 0
+19	7797 18 0 0 0 0 2 0 0 0 0
+20	7815 9 0 0 0 0 1 1 1 1 1
+21	7824 18 0 0 0 0 2 0 0 0 0
+22	7842 18 0 0 0 0 2 0 0 0 0
+23	7860 18 0 0 0 0 2 0 0 0 0
+24	7878 18 0 0 0 0 2 0 0 0 0
+25	7896 18 0 0 0 0 2 0 0 0 0
+26	7914 9 0 0 0 0 1 1 1 1 1
+27	7923 18 0 0 0 0 2 0 0 0 0
+28	7941 18 0 0 0 0 2 0 0 0 0
+29	7959 18 0 0 0 0 2 0 0 0 0
+30	7977 18 0 0 0 0 2 0 0 0 0
+31	7995 18 0 0 0 0 2 0 0 0 0
+
