@@ -5,6 +5,7 @@ import re
 r = input("Deseja gerar novas rotas (s/n): ")
 
 if r == "s" or r == "S":
+	os.system("g++ malhas.cpp -o malhas")
 	os.system("./malhas")
 
 # atualizar .ini
@@ -61,19 +62,25 @@ if s == "s" or s == "S":
 
 		# passar script para "limpar" o arquivo *.tlog
 		tlog = open("results/Infrastructure-" + str(i) + ".tlog", "r")
-		temp = open("results2IA/assocResp_probeReq-" + str(i) + ".txt", "w")
+		temp = open("results2IA/assocResp_probeReq-" + str(i) + ".txt", "w") # substituir esse arquivo por um vetor
 
 		for linha in tlog:
 			aux = linha.split()
 			if "AssocResp-OK" in aux:
-				if "InfrastructureShowcaseA.host1.wlan[0].radio" in aux:
-					temp.writelines(linha)
+				#if "InfrastructureShowcaseA.host1.wlan[0].radio" in aux:
+				temp.writelines(linha)
 			if "ProbeReq" in aux:
 				if "InfrastructureShowcaseA.host1.wlan[0].radio" in aux:
 					temp.writelines(linha)
 
 		tlog.close()
 		temp.close()
+
+		# deletando *.tlog
+		os.remove("results/Infrastructure-" + str(i) + ".tlog")
+		os.remove("results/Infrastructure-count=xmldoc(#22routes#2f" + str(i) + ".xml#22)-#0.sca")
+		os.remove("results/Infrastructure-count=xmldoc(#22routes#2f" + str(i) + ".xml#22)-#0.vci")
+		os.remove("results/Infrastructure-count=xmldoc(#22routes#2f" + str(i) + ".xml#22)-#0.vec")
 
 		# resumo dos probReq
 		temp = open("results2IA/assocResp_probeReq-" + str(i) + ".txt", "r")
