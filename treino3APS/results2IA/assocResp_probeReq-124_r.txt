@@ -1,0 +1,15 @@
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 5 S 0.176431675721 (501.764, 200, 0) m -> E 0.176469675721 (501.764, 200, 0) m
+T InfrastructureShowcaseA.AP3.wlan[0].radio 1 M AssocResp-OK 29 S 0.478535476435 (300, 100, 0) m -> E 0.478577476435 (300, 100, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 29 S 0.478536236618 (504.785, 200, 0) m -> E 0.478578236618 (504.785, 200, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 225 S 3.148062570607 (531.481, 200, 0) m -> E 3.148100570607 (531.481, 200, 0) m
+T InfrastructureShowcaseA.AP2.wlan[0].radio 2 M AssocResp-OK 247 S 3.450004334836 (500, 300, 0) m -> E 3.450046334836 (500, 300, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 247 S 3.450004687693 (534.5, 200, 0) m -> E 3.450046687693 (534.5, 200, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 3880 S 55.289594329969 (247.104, 300, 0) m -> E 55.289632329969 (247.104, 300, 0) m
+T InfrastructureShowcaseA.AP3.wlan[0].radio 1 M AssocResp-OK 3904 S 55.591817793476 (300, 100, 0) m -> E 55.591859793476 (300, 100, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 3904 S 55.591818486189 (244.082, 300, 0) m -> E 55.591860486189 (244.082, 300, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 4443 S 63.154893634107 (200, 331.549, 0) m -> E 63.154931634107 (200, 331.549, 0) m
+T InfrastructureShowcaseA.AP1.wlan[0].radio 3 M AssocResp-OK 4465 S 63.465075402248 (100, 300, 0) m -> E 63.465117402248 (100, 300, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 4465 S 63.46507575527 (200, 334.651, 0) m -> E 63.46511775527 (200, 334.651, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 5851 S 83.192844113171 (331.928, 400, 0) m -> E 83.192882113171 (331.928, 400, 0) m
+T InfrastructureShowcaseA.AP2.wlan[0].radio 2 M AssocResp-OK 5873 S 83.495247331926 (500, 300, 0) m -> E 83.495289331926 (500, 300, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 5873 S 83.495247975633 (334.952, 400, 0) m -> E 83.495289975633 (334.952, 400, 0) m

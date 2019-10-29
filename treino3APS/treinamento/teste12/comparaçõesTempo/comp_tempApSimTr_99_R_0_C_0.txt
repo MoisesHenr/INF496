@@ -1,0 +1,19 @@
+Tempo médio conectado em cada AP: [1, -1, -1][0.1, 0.9]
+
+AP --- [tempo conectado, número de intervalos]
+AP --- tempo médio
+
+Resultados simulador --- Resultados treino:
+AP0 --- [10747, 925] --- [10468, 790]
+AP0 --- 11.61837837837838 --- 13.250632911392405 --- Piorou Tm 14.048901489140903% --- Piorou Ni 14.594594594594597%
+AP1 --- [49486, 749] --- [54885, 770]
+AP1 --- 66.0694259012016 --- 71.27922077922078 --- Melhorou Tm 7.885333960385481% --- Piorou Ni 2.803738317756995%
+AP2 --- [36219, 772] --- [77297, 1531]
+AP2 --- 46.91580310880829 --- 50.48791639451339 --- Melhorou Tm 7.613880716100212% --- Piorou Ni 98.31606217616579%
+AP3 --- [56655, 1400] --- [56584, 1248]
+AP3 --- 40.46785714285714 --- 45.33974358974359 --- Melhorou Tm 12.038903937235943% --- Melhorou Ni 10.857142857142861%
+
+Número de intervalos conectado: 2921 --- 3549
+
+Porcentagem tempos médios: 27.538118613721636%
+Porcentagem intervalos: -90.26265763677992%
