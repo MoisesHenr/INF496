@@ -1,0 +1,15 @@
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 6 S 0.239904885693 (202.399, 200, 0) m -> E 0.239942885693 (202.399, 200, 0) m
+T InfrastructureShowcaseA.AP1.wlan[0].radio 3 M AssocResp-OK 30 S 0.541988292932 (100, 375, 0) m -> E 0.542030292932 (100, 375, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 30 S 0.541988974402 (205.42, 200, 0) m -> E 0.542030974402 (205.42, 200, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 572 S 8.122740835709 (281.227, 200, 0) m -> E 8.122778835709 (281.227, 200, 0) m
+T InfrastructureShowcaseA.AP3.wlan[0].radio 1 M AssocResp-OK 594 S 8.424083766216 (300, 25, 0) m -> E 8.424125766216 (300, 25, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 594 S 8.424084352315 (284.241, 200, 0) m -> E 8.424126352315 (284.241, 200, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 1805 S 25.643970983868 (400, 256.44, 0) m -> E 25.644008983868 (400, 256.44, 0) m
+T InfrastructureShowcaseA.AP2.wlan[0].radio 2 M AssocResp-OK 1827 S 25.946213532527 (500, 375, 0) m -> E 25.946255532527 (500, 375, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 1827 S 25.946214042226 (400, 259.462, 0) m -> E 25.946256042226 (400, 259.462, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 3363 S 47.703220817306 (300, 222.968, 0) m -> E 47.703258817306 (300, 222.968, 0) m
+T InfrastructureShowcaseA.AP3.wlan[0].radio 1 M AssocResp-OK 3385 S 48.006204058761 (300, 25, 0) m -> E 48.006246058761 (300, 25, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 3385 S 48.006204709004 (300, 219.938, 0) m -> E 48.006246709004 (300, 219.938, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 4792 S 68.043970984393 (480.44, 200, 0) m -> E 68.044008984393 (480.44, 200, 0) m
+T InfrastructureShowcaseA.AP2.wlan[0].radio 2 M AssocResp-OK 4814 S 68.345893916109 (500, 375, 0) m -> E 68.345935916109 (500, 375, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 4814 S 68.345894502448 (483.459, 200, 0) m -> E 68.345936502448 (483.459, 200, 0) m

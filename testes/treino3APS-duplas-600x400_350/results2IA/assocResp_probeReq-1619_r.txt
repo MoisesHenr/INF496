@@ -1,0 +1,15 @@
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 9 S 0.279319128394 (0, 102.793, 0) m -> E 0.279357128394 (0, 102.793, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 120 S 3.529319128394 (0, 135.293, 0) m -> E 3.529357128394 (0, 135.293, 0) m
+T InfrastructureShowcaseA.AP1.wlan[0].radio 3 M AssocResp-OK 143 S 3.831763228667 (125, 350, 0) m -> E 3.831805228667 (125, 350, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 143 S 3.831764048681 (0, 138.318, 0) m -> E 3.831806048681 (0, 138.318, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 4588 S 67.260979880391 (372.61, 400, 0) m -> E 67.261017880391 (372.61, 400, 0) m
+T InfrastructureShowcaseA.AP2.wlan[0].radio 2 M AssocResp-OK 4610 S 67.563121735862 (475, 350, 0) m -> E 67.563163735862 (475, 350, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 4610 S 67.563122106916 (375.631, 400, 0) m -> E 67.563164106916 (375.631, 400, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 8065 S 116.856988467957 (600, 131.43, 0) m -> E 116.857026467957 (600, 131.43, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 8702 S 135.606988467957 (543.93, 0, 0) m -> E 135.607026467957 (543.93, 0, 0) m
+T InfrastructureShowcaseA.AP3.wlan[0].radio 1 M AssocResp-OK 8722 S 135.909572571707 (300, 50, 0) m -> E 135.909614571707 (300, 50, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 8722 S 135.909573392403 (540.904, 0, 0) m -> E 135.909615392403 (540.904, 0, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 10047 S 154.780369081887 (547.804, 100, 0) m -> E 154.780407081887 (547.804, 100, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 10754 S 175.530369081887 (544.696, 0, 0) m -> E 175.530407081887 (544.696, 0, 0) m
+T InfrastructureShowcaseA.AP3.wlan[0].radio 1 M AssocResp-OK 10774 S 175.840723191648 (300, 50, 0) m -> E 175.840765191648 (300, 50, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 10774 S 175.840724014592 (541.593, 0, 0) m -> E 175.840766014592 (541.593, 0, 0) m

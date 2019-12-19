@@ -1,0 +1,23 @@
+Tempo médio conectado em cada AP: [1, -1, -1][0.1, 0.9]
+
+[tempo conectado, número de intervalos]
+AP --- Simulador --- Treinamento --- Porcentagem Simulador --- Porcentagem Treinamento
+AP --- tempo médio
+
+AP0 --- [76306, 4709] --- [75056, 4001] --- -13.620013160754453 --- 17.695576105973508
+AP0 --- 16.20428965810151 --- 18.759310172456885
+AP1 --- [219853, 3362] --- [218238, 3464] --- -3.657524197697972 --- -2.9445727482678983
+AP1 --- 65.39351576442594 --- 63.001732101616625
+AP2 --- [175790, 3332] --- [175449, 3159] --- 5.271811899796049 --- 5.476416587527699
+AP2 --- 52.75810324129652 --- 55.53941120607787
+AP3 --- [238791, 6124] --- [241997, 5998] --- 3.471500828694524 --- 2.100700233411137
+AP3 --- 38.992651861528415 --- 40.346282094031345
+
+Tempo total --- 710740 --- 710740
+Tempo total conectado --- 634434 --- 635684
+Total de intervalos conectados --- 12818 --- 12621
+
+Porcentagem de melhora total do tempo conectado --- 0.1970260105858135
+Porcentagem de melhora total do número de intervalos --- 1.5608905791934078
+
+Porcentagem de melhora do tempo médio conectado --- 1.7609919502170148

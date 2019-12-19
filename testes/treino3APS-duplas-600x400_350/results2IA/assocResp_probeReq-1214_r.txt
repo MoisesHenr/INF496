@@ -1,0 +1,15 @@
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 9 S 0.280249844305 (597.198, 0, 0) m -> E 0.280287844305 (597.198, 0, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 187 S 5.530249844305 (544.698, 0, 0) m -> E 5.530287844305 (544.698, 0, 0) m
+T InfrastructureShowcaseA.AP3.wlan[0].radio 1 M AssocResp-OK 207 S 5.83209396064 (300, 50, 0) m -> E 5.83213596064 (300, 50, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 207 S 5.832094783866 (541.679, 0, 0) m -> E 5.832136783866 (541.679, 0, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 4024 S 60.293581913038 (297.064, 300, 0) m -> E 60.293619913038 (297.064, 300, 0) m
+T InfrastructureShowcaseA.AP2.wlan[0].radio 2 M AssocResp-OK 4048 S 60.595205043939 (475, 350, 0) m -> E 60.595247043939 (475, 350, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 4048 S 60.595205670149 (294.048, 300, 0) m -> E 60.595247670149 (294.048, 300, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 4524 S 67.253183170024 (227.468, 300, 0) m -> E 67.253221170024 (227.468, 300, 0) m
+T InfrastructureShowcaseA.AP1.wlan[0].radio 3 M AssocResp-OK 4546 S 67.553858380724 (125, 350, 0) m -> E 67.553900380724 (125, 350, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 4546 S 67.553858752054 (224.461, 300, 0) m -> E 67.553900752054 (224.461, 300, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 23635 S 340.184153618379 (100, 98.1585, 0) m -> E 340.184191618379 (100, 98.1585, 0) m
+T InfrastructureShowcaseA.AP3.wlan[0].radio 1 M AssocResp-OK 23657 S 340.485617037968 (300, 50, 0) m -> E 340.485659037968 (300, 50, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 23657 S 340.48561772188 (100, 95.1438, 0) m -> E 340.48565972188 (100, 95.1438, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 24665 S 354.793581913311 (52.0642, 0, 0) m -> E 354.793619913311 (52.0642, 0, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 24869 S 360.793581913311 (0, 0, 0) m -> E 360.793619913311 (0, 0, 0) m

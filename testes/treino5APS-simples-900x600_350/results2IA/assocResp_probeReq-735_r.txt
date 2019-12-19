@@ -1,0 +1,15 @@
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 16 S 0.31489298814 (496.851, 300, 0) m -> E 0.31493098814 (496.851, 300, 0) m
+T InfrastructureShowcaseA.AP2.wlan[0].radio 2 M AssocResp-OK 50 S 0.61921231142 (625, 450, 0) m -> E 0.61925431142 (625, 450, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 50 S 0.619212976137 (493.808, 300, 0) m -> E 0.619254976137 (493.808, 300, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 699 S 7.766655132577 (422.333, 300, 0) m -> E 7.766693132577 (422.333, 300, 0) m
+T InfrastructureShowcaseA.AP1.wlan[0].radio 1 M AssocResp-OK 729 S 8.068978604277 (275, 450, 0) m -> E 8.069020604277 (275, 450, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 729 S 8.068979298583 (419.31, 300, 0) m -> E 8.069021298583 (419.31, 300, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 3244 S 35.970605695696 (500, 340.294, 0) m -> E 35.970643695696 (500, 340.294, 0) m
+T InfrastructureShowcaseA.AP2.wlan[0].radio 2 M AssocResp-OK 3274 S 36.276568493672 (625, 450, 0) m -> E 36.276610493672 (625, 450, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 3274 S 36.276569055221 (500, 337.234, 0) m -> E 36.276611055221 (500, 337.234, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 4232 S 46.866655130711 (500, 231.333, 0) m -> E 46.866693130711 (500, 231.333, 0) m
+T InfrastructureShowcaseA.AP3.wlan[0].radio 3 M AssocResp-OK 4260 S 47.169716680472 (450, 150, 0) m -> E 47.169758680472 (450, 150, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 4260 S 47.16971699037 (500, 228.303, 0) m -> E 47.16975899037 (500, 228.303, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 6308 S 69.805695868276 (698.057, 200, 0) m -> E 69.805733868276 (698.057, 200, 0) m
+T InfrastructureShowcaseA.AP5.wlan[0].radio 5 M AssocResp-OK 6336 S 70.107977717045 (800, 150, 0) m -> E 70.108019717045 (800, 150, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 6336 S 70.107978086763 (701.08, 200, 0) m -> E 70.108020086763 (701.08, 200, 0) m

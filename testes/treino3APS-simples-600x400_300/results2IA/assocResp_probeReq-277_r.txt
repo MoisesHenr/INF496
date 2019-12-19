@@ -1,0 +1,15 @@
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 9 S 0.281818272662 (0, 102.818, 0) m -> E 0.281856272662 (0, 102.818, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 102 S 3.031818272662 (0, 130.318, 0) m -> E 3.031856272662 (0, 130.318, 0) m
+T InfrastructureShowcaseA.AP1.wlan[0].radio 3 M AssocResp-OK 122 S 3.334762397922 (150, 330, 0) m -> E 3.334804397922 (150, 330, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 122 S 3.334763222926 (0, 133.348, 0) m -> E 3.334805222926 (0, 133.348, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 2336 S 34.885328387509 (51.1467, 100, 0) m -> E 34.885366387509 (51.1467, 100, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 2617 S 43.14721838857 (0, 131.472, 0) m -> E 43.14725638857 (0, 131.472, 0) m
+T InfrastructureShowcaseA.AP1.wlan[0].radio 3 M AssocResp-OK 2637 S 43.452882490194 (150, 330, 0) m -> E 43.452924490194 (150, 330, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 2637 S 43.452883312069 (0, 134.529, 0) m -> E 43.452925312069 (0, 134.529, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 4843 S 74.885328387509 (51.1467, 100, 0) m -> E 74.885366387509 (51.1467, 100, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 5124 S 83.14721838857 (0, 131.472, 0) m -> E 83.14725638857 (0, 131.472, 0) m
+T InfrastructureShowcaseA.AP1.wlan[0].radio 3 M AssocResp-OK 5144 S 83.447122490891 (150, 330, 0) m -> E 83.447164490891 (150, 330, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 5144 S 83.447123312918 (0, 134.471, 0) m -> E 83.447165312918 (0, 134.471, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 9758 S 149.285328386902 (392.853, 400, 0) m -> E 149.285366386902 (392.853, 400, 0) m
+T InfrastructureShowcaseA.AP2.wlan[0].radio 2 M AssocResp-OK 9780 S 149.587609862818 (450, 330, 0) m -> E 149.587651862818 (450, 330, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 9780 S 149.587610157968 (395.876, 400, 0) m -> E 149.587652157968 (395.876, 400, 0) m

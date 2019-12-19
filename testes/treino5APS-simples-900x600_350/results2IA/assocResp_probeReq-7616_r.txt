@@ -1,0 +1,15 @@
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 6 S 0.129175111093 (398.708, 500, 0) m -> E 0.129213111093 (398.708, 500, 0) m
+T InfrastructureShowcaseA.AP2.wlan[0].radio 2 M AssocResp-OK 36 S 0.431039025231 (625, 450, 0) m -> E 0.431081025231 (625, 450, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 36 S 0.4310398081 (395.69, 500, 0) m -> E 0.4310818081 (395.69, 500, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 209 S 2.283815816999 (377.162, 500, 0) m -> E 2.283853816999 (377.162, 500, 0) m
+T InfrastructureShowcaseA.AP1.wlan[0].radio 1 M AssocResp-OK 237 S 2.585757669089 (275, 450, 0) m -> E 2.585799669089 (275, 450, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 237 S 2.585758039469 (374.142, 500, 0) m -> E 2.585800039469 (374.142, 500, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 3616 S 40.098803229446 (300.988, 200, 0) m -> E 40.098841229446 (300.988, 200, 0) m
+T InfrastructureShowcaseA.AP4.wlan[0].radio 4 M AssocResp-OK 3646 S 40.401506732474 (100, 150, 0) m -> E 40.401548732474 (100, 150, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 3646 S 40.401507433134 (304.015, 200, 0) m -> E 40.401549433134 (304.015, 200, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 4043 S 44.752883649514 (347.529, 200, 0) m -> E 44.752921649514 (347.529, 200, 0) m
+T InfrastructureShowcaseA.AP3.wlan[0].radio 3 M AssocResp-OK 4071 S 45.055345506158 (450, 150, 0) m -> E 45.055387506158 (450, 150, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 4071 S 45.055345877444 (350.553, 200, 0) m -> E 45.055387877444 (350.553, 200, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 12194 S 135.207434319115 (652.074, 0, 0) m -> E 135.207472319115 (652.074, 0, 0) m
+T InfrastructureShowcaseA.AP5.wlan[0].radio 5 M AssocResp-OK 12222 S 135.509377797682 (800, 150, 0) m -> E 135.509419797682 (800, 150, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 12222 S 135.509378493368 (655.094, 0, 0) m -> E 135.509420493368 (655.094, 0, 0) m

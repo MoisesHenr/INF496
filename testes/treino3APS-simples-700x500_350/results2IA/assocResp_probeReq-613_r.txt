@@ -1,0 +1,15 @@
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 9 S 0.301260826853 (196.987, 100, 0) m -> E 0.301298826853 (196.987, 100, 0) m
+T InfrastructureShowcaseA.AP3.wlan[0].radio 1 M AssocResp-OK 31 S 0.603903429041 (350, 100, 0) m -> E 0.603945429041 (350, 100, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 31 S 0.603903949531 (193.961, 100, 0) m -> E 0.603945949531 (193.961, 100, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 710 S 10.239925989185 (100, 102.399, 0) m -> E 10.239963989185 (100, 102.399, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 829 S 13.739925989185 (100, 137.399, 0) m -> E 13.739963989185 (100, 137.399, 0) m
+T InfrastructureShowcaseA.AP1.wlan[0].radio 3 M AssocResp-OK 849 S 14.04217009688 (175, 375, 0) m -> E 14.04221209688 (175, 375, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 849 S 14.042170918369 (100, 140.422, 0) m -> E 14.042212918369 (100, 140.422, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 3411 S 50.53416390625 (0, 194.658, 0) m -> E 50.53420190625 (0, 194.658, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 4490 S 82.28416390625 (122.842, 0, 0) m -> E 82.28420190625 (122.842, 0, 0) m
+T InfrastructureShowcaseA.AP3.wlan[0].radio 1 M AssocResp-OK 4512 S 82.586267999822 (350, 100, 0) m -> E 82.586309999822 (350, 100, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 4512 S 82.5862688185 (125.863, 0, 0) m -> E 82.5863108185 (125.863, 0, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 10510 S 168.139925989382 (581.399, 0, 0) m -> E 168.139963989382 (581.399, 0, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 11590 S 199.889925989382 (700, 198.899, 0) m -> E 199.889963989382 (700, 198.899, 0) m
+T InfrastructureShowcaseA.AP2.wlan[0].radio 2 M AssocResp-OK 11612 S 200.191910094578 (525, 375, 0) m -> E 200.191952094578 (525, 375, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 11612 S 200.191910915593 (700, 201.919, 0) m -> E 200.191952915593 (700, 201.919, 0) m

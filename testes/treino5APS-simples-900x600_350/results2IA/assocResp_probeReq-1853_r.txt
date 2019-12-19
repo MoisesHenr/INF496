@@ -1,0 +1,15 @@
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 14 S 0.294048787933 (300, 297.06, 0) m -> E 0.294086787933 (300, 297.06, 0) m
+T InfrastructureShowcaseA.AP1.wlan[0].radio 1 M AssocResp-OK 46 S 0.596571422134 (275, 450, 0) m -> E 0.596613422134 (275, 450, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 46 S 0.596571949021 (300, 294.034, 0) m -> E 0.596613949021 (300, 294.034, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 915 S 10.149125395338 (300, 198.509, 0) m -> E 10.149163395338 (300, 198.509, 0) m
+T InfrastructureShowcaseA.AP3.wlan[0].radio 3 M AssocResp-OK 945 S 10.45142800963 (450, 150, 0) m -> E 10.45147000963 (450, 150, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 945 S 10.451428532475 (300, 195.486, 0) m -> E 10.451470532475 (300, 195.486, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 2689 S 29.71893226446 (202.811, 100, 0) m -> E 29.71897026446 (202.811, 100, 0) m
+T InfrastructureShowcaseA.AP4.wlan[0].radio 4 M AssocResp-OK 2717 S 30.021494127667 (100, 150, 0) m -> E 30.021536127667 (100, 150, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 2717 S 30.021494500283 (200, 100.215, 0) m -> E 30.021536500283 (200, 100.215, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 6345 S 70.231202749021 (302.312, 0, 0) m -> E 70.231240749021 (302.312, 0, 0) m
+T InfrastructureShowcaseA.AP3.wlan[0].radio 3 M AssocResp-OK 6373 S 70.533106224809 (450, 150, 0) m -> E 70.533148224809 (450, 150, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 6373 S 70.533106919945 (305.331, 0, 0) m -> E 70.533148919945 (305.331, 0, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 9503 S 105.218932265691 (652.189, 0, 0) m -> E 105.218970265691 (652.189, 0, 0) m
+T InfrastructureShowcaseA.AP5.wlan[0].radio 5 M AssocResp-OK 9531 S 105.521855742848 (800, 150, 0) m -> E 105.521897742848 (800, 150, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 9531 S 105.521856438244 (655.219, 0, 0) m -> E 105.521898438244 (655.219, 0, 0) m

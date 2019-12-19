@@ -1,0 +1,15 @@
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 11 S 0.34007822643 (503.401, 200, 0) m -> E 0.34011622643 (503.401, 200, 0) m
+T InfrastructureShowcaseA.AP3.wlan[0].radio 1 M AssocResp-OK 35 S 0.642461322675 (350, 100, 0) m -> E 0.642503322675 (350, 100, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 35 S 0.642461941961 (506.425, 200, 0) m -> E 0.642503941961 (506.425, 200, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 575 S 8.221777109566 (582.218, 200, 0) m -> E 8.221815109566 (582.218, 200, 0) m
+T InfrastructureShowcaseA.AP2.wlan[0].radio 2 M AssocResp-OK 598 S 8.52500019628 (525, 375, 0) m -> E 8.52504219628 (525, 375, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 598 S 8.525000813645 (585.25, 200, 0) m -> E 8.525042813645 (585.25, 200, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 6260 S 89.374367699043 (306.256, 500, 0) m -> E 89.374405699043 (306.256, 500, 0) m
+T InfrastructureShowcaseA.AP1.wlan[0].radio 3 M AssocResp-OK 6282 S 89.676290685912 (175, 375, 0) m -> E 89.676332685912 (175, 375, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 6282 S 89.67629128326 (303.237, 500, 0) m -> E 89.67633328326 (303.237, 500, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 13352 S 190.573775130108 (0, 194.262, 0) m -> E 190.573813130108 (0, 194.262, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 14431 S 222.323775130108 (123.238, 0, 0) m -> E 222.323813130108 (123.238, 0, 0) m
+T InfrastructureShowcaseA.AP3.wlan[0].radio 1 M AssocResp-OK 14454 S 222.62629921763 (350, 100, 0) m -> E 222.62634121763 (350, 100, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 14454 S 222.626300035088 (126.263, 0, 0) m -> E 222.626342035088 (126.263, 0, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 20454 S 308.221777109566 (582.218, 0, 0) m -> E 308.221815109566 (582.218, 0, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 20889 S 320.971777109566 (700, 0, 0) m -> E 320.971815109566 (700, 0, 0) m

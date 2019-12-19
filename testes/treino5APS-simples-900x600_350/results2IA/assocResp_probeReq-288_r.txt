@@ -1,0 +1,15 @@
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 13 S 0.257840086543 (2.5784, 0, 0) m -> E 0.257878086543 (2.5784, 0, 0) m
+T InfrastructureShowcaseA.AP4.wlan[0].radio 4 M AssocResp-OK 41 S 0.559403042601 (100, 150, 0) m -> E 0.559445042601 (100, 150, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 41 S 0.559403633796 (5.59403, 0, 0) m -> E 0.559445633796 (5.59403, 0, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 2721 S 30.277600317747 (302.776, 0, 0) m -> E 30.277638317747 (302.776, 0, 0) m
+T InfrastructureShowcaseA.AP3.wlan[0].radio 3 M AssocResp-OK 2750 S 30.580503788136 (450, 150, 0) m -> E 30.580545788136 (450, 150, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 2750 S 30.580504482175 (305.805, 0, 0) m -> E 30.580546482175 (305.805, 0, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 6293 S 69.800539200507 (201.995, 100, 0) m -> E 69.800577200507 (201.995, 100, 0) m
+T InfrastructureShowcaseA.AP4.wlan[0].radio 4 M AssocResp-OK 6321 S 70.103101050065 (100, 150, 0) m -> E 70.103143050065 (100, 150, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 6321 S 70.103101419928 (198.969, 100, 0) m -> E 70.103143419928 (198.969, 100, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 17140 S 190.277600317747 (302.776, 0, 0) m -> E 190.277638317747 (302.776, 0, 0) m
+T InfrastructureShowcaseA.AP3.wlan[0].radio 3 M AssocResp-OK 17168 S 190.579423788202 (450, 150, 0) m -> E 190.579465788202 (450, 150, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 17168 S 190.579424482266 (305.794, 0, 0) m -> E 190.579466482266 (305.794, 0, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 20295 S 225.204735824946 (652.047, 0, 0) m -> E 225.204773824946 (652.047, 0, 0) m
+T InfrastructureShowcaseA.AP5.wlan[0].radio 5 M AssocResp-OK 20323 S 225.517259295598 (800, 150, 0) m -> E 225.517301295598 (800, 150, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 20323 S 225.517259991101 (655.173, 0, 0) m -> E 225.517301991101 (655.173, 0, 0) m

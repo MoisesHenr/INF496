@@ -1,0 +1,15 @@
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 12 S 0.222816955834 (102.228, 0, 0) m -> E 0.222854955834 (102.228, 0, 0) m
+T InfrastructureShowcaseA.AP4.wlan[0].radio 4 M AssocResp-OK 40 S 0.525639459091 (100, 150, 0) m -> E 0.525681459091 (100, 150, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 40 S 0.525639959744 (105.256, 0, 0) m -> E 0.525681959744 (105.256, 0, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 1823 S 20.2900139726 (302.9, 0, 0) m -> E 20.2900519726 (302.9, 0, 0) m
+T InfrastructureShowcaseA.AP3.wlan[0].radio 3 M AssocResp-OK 1851 S 20.592697441574 (450, 150, 0) m -> E 20.592739441574 (450, 150, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 1851 S 20.592698135331 (305.927, 0, 0) m -> E 20.592740135331 (305.927, 0, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 4978 S 55.235129339878 (652.351, 0, 0) m -> E 55.235167339878 (652.351, 0, 0) m
+T InfrastructureShowcaseA.AP5.wlan[0].radio 5 M AssocResp-OK 5006 S 55.524578281406 (800, 150, 0) m -> E 55.524620281406 (800, 150, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 5006 S 55.524578976739 (655.246, 0, 0) m -> E 55.524620976739 (655.246, 0, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 21638 S 240.270159466572 (597.298, 300, 0) m -> E 240.270197466572 (597.298, 300, 0) m
+T InfrastructureShowcaseA.AP3.wlan[0].radio 3 M AssocResp-OK 21668 S 240.571922937862 (450, 150, 0) m -> E 240.571964937862 (450, 150, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 21668 S 240.5719236321 (594.281, 300, 0) m -> E 240.5719656321 (594.281, 300, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 27901 S 309.739708673702 (400, 397.397, 0) m -> E 309.739746673702 (400, 397.397, 0) m
+T InfrastructureShowcaseA.AP2.wlan[0].radio 2 M AssocResp-OK 27933 S 310.034172509593 (625, 450, 0) m -> E 310.034214509593 (625, 450, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 27933 S 310.034173277308 (400.342, 400, 0) m -> E 310.034215277308 (400.342, 400, 0) m

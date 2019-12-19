@@ -1,0 +1,15 @@
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 7 S 0.140101704607 (101.401, 0, 0) m -> E 0.140139704607 (101.401, 0, 0) m
+T InfrastructureShowcaseA.AP4.wlan[0].radio 4 M AssocResp-OK 35 S 0.442524207418 (100, 150, 0) m -> E 0.442566207418 (100, 150, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 35 S 0.442524707982 (104.425, 0, 0) m -> E 0.442566707982 (104.425, 0, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 1825 S 20.246072240983 (302.461, 0, 0) m -> E 20.246110240983 (302.461, 0, 0) m
+T InfrastructureShowcaseA.AP3.wlan[0].radio 3 M AssocResp-OK 1853 S 20.548395715053 (450, 150, 0) m -> E 20.548437715053 (450, 150, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 1853 S 20.548396409835 (305.484, 0, 0) m -> E 20.548438409835 (305.484, 0, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 15784 S 175.261531234426 (652.615, 0, 0) m -> E 175.261569234426 (652.615, 0, 0) m
+T InfrastructureShowcaseA.AP5.wlan[0].radio 5 M AssocResp-OK 15812 S 175.563454706743 (800, 150, 0) m -> E 175.563496706743 (800, 150, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 15812 S 175.563455401177 (655.635, 0, 0) m -> E 175.563497401177 (655.635, 0, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 20742 S 230.295454739446 (800, 402.955, 0) m -> E 230.295492739446 (800, 402.955, 0) m
+T InfrastructureShowcaseA.AP2.wlan[0].radio 2 M AssocResp-OK 20773 S 230.599214952953 (625, 450, 0) m -> E 230.599256952953 (625, 450, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 20773 S 230.599215554865 (800, 405.992, 0) m -> E 230.599257554865 (800, 405.992, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 32349 S 359.108224590359 (700, 208.918, 0) m -> E 359.108262590359 (700, 208.918, 0) m
+T InfrastructureShowcaseA.AP5.wlan[0].radio 5 M AssocResp-OK 32377 S 359.409866501178 (800, 150, 0) m -> E 359.409908501178 (800, 150, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 32377 S 359.409866883323 (700, 205.901, 0) m -> E 359.409908883323 (700, 205.901, 0) m

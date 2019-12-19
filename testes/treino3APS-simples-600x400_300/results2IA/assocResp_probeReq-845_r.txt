@@ -1,0 +1,15 @@
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 4 S 0.147392480751 (301.474, 0, 0) m -> E 0.147430480751 (301.474, 0, 0) m
+T InfrastructureShowcaseA.AP3.wlan[0].radio 1 M AssocResp-OK 27 S 0.450193650621 (300, 70, 0) m -> E 0.450235650621 (300, 70, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 27 S 0.450193884598 (304.502, 0, 0) m -> E 0.450235884598 (304.502, 0, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 1701 S 24.291582731559 (542.916, 0, 0) m -> E 24.291620731559 (542.916, 0, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 2415 S 45.291582731559 (547.084, 100, 0) m -> E 45.291620731559 (547.084, 100, 0) m
+T InfrastructureShowcaseA.AP3.wlan[0].radio 1 M AssocResp-OK 2435 S 45.598018149376 (300, 70, 0) m -> E 45.598060149376 (300, 70, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 2435 S 45.598018969467 (544.02, 100, 0) m -> E 45.598060969467 (544.02, 100, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 3751 S 64.291582731559 (542.916, 0, 0) m -> E 64.291620731559 (542.916, 0, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 4465 S 85.291582731559 (547.084, 100, 0) m -> E 85.291620731559 (547.084, 100, 0) m
+T InfrastructureShowcaseA.AP3.wlan[0].radio 1 M AssocResp-OK 4485 S 85.593706832961 (300, 70, 0) m -> E 85.593748832961 (300, 70, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 4485 S 85.593707653194 (544.063, 100, 0) m -> E 85.593749653194 (544.063, 100, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 5801 S 104.291582731559 (542.916, 0, 0) m -> E 104.291620731559 (542.916, 0, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 6438 S 123.041582731559 (600, 130.416, 0) m -> E 123.041620731559 (600, 130.416, 0) m
+T InfrastructureShowcaseA.AP2.wlan[0].radio 2 M AssocResp-OK 6458 S 123.344146855547 (450, 330, 0) m -> E 123.344188855547 (450, 330, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 6458 S 123.344147680302 (600, 133.441, 0) m -> E 123.344189680302 (600, 133.441, 0) m

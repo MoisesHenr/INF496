@@ -1,0 +1,15 @@
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 12 S 0.386764890235 (403.868, 0, 0) m -> E 0.386802890235 (403.868, 0, 0) m
+T InfrastructureShowcaseA.AP3.wlan[0].radio 1 M AssocResp-OK 34 S 0.688766808924 (350, 100, 0) m -> E 0.688808808924 (350, 100, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 34 S 0.688767192685 (406.888, 0, 0) m -> E 0.688809192685 (406.888, 0, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 1265 S 18.175831569047 (581.758, 0, 0) m -> E 18.175869569047 (581.758, 0, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 3713 S 90.175831569047 (598.242, 100, 0) m -> E 90.175869569047 (598.242, 100, 0) m
+T InfrastructureShowcaseA.AP3.wlan[0].radio 1 M AssocResp-OK 3735 S 90.478195659123 (350, 100, 0) m -> E 90.478237659123 (350, 100, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 3735 S 90.478196477082 (595.218, 100, 0) m -> E 90.478238477082 (595.218, 100, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 5828 S 120.275831570122 (500, 302.758, 0) m -> E 120.275869570122 (500, 302.758, 0) m
+T InfrastructureShowcaseA.AP2.wlan[0].radio 2 M AssocResp-OK 5850 S 120.578492797736 (525, 375, 0) m -> E 120.578534797736 (525, 375, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 5850 S 120.578493043211 (500, 305.785, 0) m -> E 120.578535043211 (500, 305.785, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 11370 S 199.366578330381 (306.334, 500, 0) m -> E 199.366616330381 (306.334, 500, 0) m
+T InfrastructureShowcaseA.AP1.wlan[0].radio 3 M AssocResp-OK 11392 S 199.668541318188 (175, 375, 0) m -> E 199.668583318188 (175, 375, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 11392 S 199.668541915721 (303.315, 500, 0) m -> E 199.668583915721 (303.315, 500, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 15662 S 260.534523766764 (0, 194.655, 0) m -> E 260.534561766764 (0, 194.655, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 16350 S 280.784523766764 (0, 0, 0) m -> E 280.784561766764 (0, 0, 0) m

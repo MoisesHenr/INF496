@@ -1,0 +1,15 @@
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 11 S 0.253249857621 (200, 302.532, 0) m -> E 0.253287857621 (200, 302.532, 0) m
+T InfrastructureShowcaseA.AP4.wlan[0].radio 4 M AssocResp-OK 43 S 0.5561929417 (100, 150, 0) m -> E 0.5562349417 (100, 150, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 43 S 0.556193558564 (200, 305.562, 0) m -> E 0.556235558564 (200, 305.562, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 746 S 8.210570745431 (200, 382.106, 0) m -> E 8.210608745431 (200, 382.106, 0) m
+T InfrastructureShowcaseA.AP1.wlan[0].radio 1 M AssocResp-OK 774 S 8.512232399478 (275, 450, 0) m -> E 8.512274399478 (275, 450, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 774 S 8.512232730264 (200, 385.122, 0) m -> E 8.512274730264 (200, 385.122, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 3625 S 40.133819627086 (301.338, 200, 0) m -> E 40.133857627086 (301.338, 200, 0) m
+T InfrastructureShowcaseA.AP4.wlan[0].radio 4 M AssocResp-OK 3655 S 40.436443135797 (100, 150, 0) m -> E 40.436485135797 (100, 150, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 3655 S 40.436443837589 (304.364, 200, 0) m -> E 40.436485837589 (304.364, 200, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 4061 S 44.816009333014 (348.16, 200, 0) m -> E 44.816047333014 (348.16, 200, 0) m
+T InfrastructureShowcaseA.AP3.wlan[0].radio 3 M AssocResp-OK 4089 S 45.119511171106 (450, 150, 0) m -> E 45.119553171106 (450, 150, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 4089 S 45.119511540481 (351.195, 200, 0) m -> E 45.119553540481 (351.195, 200, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 7210 S 79.759119782209 (697.591, 200, 0) m -> E 79.759157782209 (697.591, 200, 0) m
+T InfrastructureShowcaseA.AP5.wlan[0].radio 5 M AssocResp-OK 7239 S 80.061241642433 (800, 150, 0) m -> E 80.061283642433 (800, 150, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 7239 S 80.06124201446 (700, 199.388, 0) m -> E 80.06128401446 (700, 199.388, 0) m

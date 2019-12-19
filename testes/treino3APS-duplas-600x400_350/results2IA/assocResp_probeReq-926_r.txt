@@ -1,0 +1,15 @@
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 3 S 0.135302730463 (300, 298.647, 0) m -> E 0.135340730463 (300, 298.647, 0) m
+T InfrastructureShowcaseA.AP1.wlan[0].radio 3 M AssocResp-OK 29 S 0.437005786711 (125, 350, 0) m -> E 0.437047786711 (125, 350, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 29 S 0.437006397972 (300, 295.63, 0) m -> E 0.437048397972 (300, 295.63, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 921 S 13.089109837039 (300, 169.109, 0) m -> E 13.089147837039 (300, 169.109, 0) m
+T InfrastructureShowcaseA.AP3.wlan[0].radio 1 M AssocResp-OK 943 S 13.391151773371 (300, 50, 0) m -> E 13.391193773371 (300, 50, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 943 S 13.3911521606 (300, 166.088, 0) m -> E 13.3911941606 (300, 166.088, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 3855 S 54.811819281878 (51.8818, 0, 0) m -> E 54.811857281878 (51.8818, 0, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 4494 S 73.561819281878 (0, 135.618, 0) m -> E 73.561857281878 (0, 135.618, 0) m
+T InfrastructureShowcaseA.AP1.wlan[0].radio 3 M AssocResp-OK 4516 S 73.863743377491 (125, 350, 0) m -> E 73.863785377491 (125, 350, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 4516 S 73.863744196587 (0, 138.637, 0) m -> E 73.863786196587 (0, 138.637, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 17067 S 253.089109837039 (300, 169.109, 0) m -> E 253.089147837039 (300, 169.109, 0) m
+T InfrastructureShowcaseA.AP3.wlan[0].radio 1 M AssocResp-OK 17089 S 253.391491773333 (300, 50, 0) m -> E 253.391533773333 (300, 50, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 17089 S 253.391492160551 (300, 166.085, 0) m -> E 253.391534160551 (300, 166.085, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 24201 S 354.811819281878 (51.8818, 0, 0) m -> E 354.811857281878 (51.8818, 0, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 24405 S 360.811819281878 (0, 0, 0) m -> E 360.811857281878 (0, 0, 0) m

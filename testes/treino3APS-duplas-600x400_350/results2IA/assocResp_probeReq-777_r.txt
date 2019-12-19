@@ -1,0 +1,15 @@
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 6 S 0.269058712479 (597.309, 0, 0) m -> E 0.269096712479 (597.309, 0, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 193 S 5.769058712479 (542.309, 0, 0) m -> E 5.769096712479 (542.309, 0, 0) m
+T InfrastructureShowcaseA.AP3.wlan[0].radio 1 M AssocResp-OK 215 S 6.071382789784 (300, 50, 0) m -> E 6.071424789784 (300, 50, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 215 S 6.071383605196 (539.286, 0, 0) m -> E 6.071425605196 (539.286, 0, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 1531 S 24.725680149798 (547.257, 100, 0) m -> E 24.725718149798 (547.257, 100, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 2245 S 45.725680149798 (542.743, 0, 0) m -> E 45.725718149798 (542.743, 0, 0) m
+T InfrastructureShowcaseA.AP3.wlan[0].radio 1 M AssocResp-OK 2267 S 46.028964234091 (300, 50, 0) m -> E 46.029006234091 (300, 50, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 2267 S 46.028965050888 (539.71, 0, 0) m -> E 46.029007050888 (539.71, 0, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 6383 S 104.725680149798 (547.257, 100, 0) m -> E 104.725718149798 (547.257, 100, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 7097 S 125.725680149798 (542.743, 0, 0) m -> E 125.725718149798 (542.743, 0, 0) m
+T InfrastructureShowcaseA.AP3.wlan[0].radio 1 M AssocResp-OK 7119 S 126.027844234182 (300, 50, 0) m -> E 126.027886234182 (300, 50, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 7119 S 126.027845051015 (539.722, 0, 0) m -> E 126.027887051015 (539.722, 0, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 11623 S 190.225680152494 (500, 202.257, 0) m -> E 190.225718152494 (500, 202.257, 0) m
+T InfrastructureShowcaseA.AP2.wlan[0].radio 2 M AssocResp-OK 11645 S 190.527862602167 (475, 350, 0) m -> E 190.527904602167 (475, 350, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 11645 S 190.527863092055 (500, 205.279, 0) m -> E 190.527905092055 (500, 205.279, 0) m

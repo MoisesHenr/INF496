@@ -1,0 +1,15 @@
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 6 S 0.117114370572 (498.829, 300, 0) m -> E 0.117152370572 (498.829, 300, 0) m
+T InfrastructureShowcaseA.AP2.wlan[0].radio 2 M AssocResp-OK 36 S 0.418957672144 (625, 450, 0) m -> E 0.418999672144 (625, 450, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 36 S 0.418958332483 (495.81, 300, 0) m -> E 0.419000332483 (495.81, 300, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 700 S 7.73284365569 (422.672, 300, 0) m -> E 7.73288165569 (422.672, 300, 0) m
+T InfrastructureShowcaseA.AP1.wlan[0].radio 1 M AssocResp-OK 732 S 8.035007131288 (275, 450, 0) m -> E 8.035049131288 (275, 450, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 732 S 8.03500782638 (419.65, 300, 0) m -> E 8.03504982638 (419.65, 300, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 2728 S 30.139515957541 (301.395, 200, 0) m -> E 30.139553957541 (301.395, 200, 0) m
+T InfrastructureShowcaseA.AP4.wlan[0].radio 4 M AssocResp-OK 2760 S 30.4410994671 (100, 150, 0) m -> E 30.4411414671 (100, 150, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 2760 S 30.441100169043 (304.411, 200, 0) m -> E 30.441142169043 (304.411, 200, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 3158 S 34.79534847008 (347.953, 200, 0) m -> E 34.79538647008 (347.953, 200, 0) m
+T InfrastructureShowcaseA.AP3.wlan[0].radio 3 M AssocResp-OK 3186 S 35.098330320377 (450, 150, 0) m -> E 35.098372320377 (450, 150, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 3186 S 35.098330690382 (350.983, 200, 0) m -> E 35.098372690382 (350.983, 200, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 11308 S 125.260071618779 (652.601, 0, 0) m -> E 125.260109618779 (652.601, 0, 0) m
+T InfrastructureShowcaseA.AP5.wlan[0].radio 5 M AssocResp-OK 11336 S 125.562735091197 (800, 150, 0) m -> E 125.562777091197 (800, 150, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 11336 S 125.562735785647 (655.627, 0, 0) m -> E 125.562777785647 (655.627, 0, 0) m

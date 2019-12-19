@@ -1,0 +1,15 @@
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 18 S 0.35805540476 (496.419, 300, 0) m -> E 0.35809340476 (496.419, 300, 0) m
+T InfrastructureShowcaseA.AP2.wlan[0].radio 2 M AssocResp-OK 50 S 0.660218732729 (625, 450, 0) m -> E 0.660260732729 (625, 450, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 50 S 0.660219398347 (493.398, 300, 0) m -> E 0.660261398347 (493.398, 300, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 695 S 7.75056365718 (422.494, 300, 0) m -> E 7.75060165718 (422.494, 300, 0) m
+T InfrastructureShowcaseA.AP3.wlan[0].radio 3 M AssocResp-OK 725 S 8.052606210149 (450, 150, 0) m -> E 8.052648210149 (450, 150, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 725 S 8.052606720751 (419.474, 300, 0) m -> E 8.052648720751 (419.474, 300, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 1820 S 19.808938607698 (400, 398.089, 0) m -> E 19.808976607698 (400, 398.089, 0) m
+T InfrastructureShowcaseA.AP1.wlan[0].radio 1 M AssocResp-OK 1850 S 20.122100867025 (275, 450, 0) m -> E 20.122142867025 (275, 450, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 1850 S 20.122101319883 (401.221, 400, 0) m -> E 20.122143319883 (401.221, 400, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 3321 S 36.014558822567 (500, 339.854, 0) m -> E 36.014596822567 (500, 339.854, 0) m
+T InfrastructureShowcaseA.AP3.wlan[0].radio 3 M AssocResp-OK 3351 S 36.321601624645 (450, 150, 0) m -> E 36.321643624645 (450, 150, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 3351 S 36.321602269626 (500, 336.784, 0) m -> E 36.321644269626 (500, 336.784, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 6463 S 69.814393812645 (698.144, 200, 0) m -> E 69.814431812645 (698.144, 200, 0) m
+T InfrastructureShowcaseA.AP5.wlan[0].radio 5 M AssocResp-OK 6491 S 70.107807625424 (800, 150, 0) m -> E 70.107849625424 (800, 150, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 6491 S 70.107807995147 (701.078, 200, 0) m -> E 70.107849995147 (701.078, 200, 0) m

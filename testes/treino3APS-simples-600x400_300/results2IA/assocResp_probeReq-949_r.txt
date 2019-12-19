@@ -1,0 +1,15 @@
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 6 S 0.23775322251 (402.378, 200, 0) m -> E 0.23779122251 (402.378, 200, 0) m
+T InfrastructureShowcaseA.AP3.wlan[0].radio 1 M AssocResp-OK 30 S 0.540036013595 (300, 70, 0) m -> E 0.540078013595 (300, 70, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 30 S 0.540036571847 (405.4, 200, 0) m -> E 0.540078571847 (405.4, 200, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 2406 S 34.30069138938 (543.007, 0, 0) m -> E 34.30072938938 (543.007, 0, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 3120 S 55.30069138938 (546.993, 100, 0) m -> E 55.30072938938 (546.993, 100, 0) m
+T InfrastructureShowcaseA.AP3.wlan[0].radio 1 M AssocResp-OK 3140 S 55.603055489243 (300, 70, 0) m -> E 55.603097489243 (300, 70, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 3140 S 55.603056309167 (543.969, 100, 0) m -> E 55.603098309167 (543.969, 100, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 4459 S 74.30069138938 (543.007, 0, 0) m -> E 74.30072938938 (543.007, 0, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 5173 S 95.30069138938 (546.993, 100, 0) m -> E 95.30072938938 (546.993, 100, 0) m
+T InfrastructureShowcaseA.AP3.wlan[0].radio 1 M AssocResp-OK 5193 S 95.603255489219 (300, 70, 0) m -> E 95.603297489219 (300, 70, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 5193 S 95.603256309136 (543.967, 100, 0) m -> E 95.603298309136 (543.967, 100, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 6512 S 114.304772 (543.048, 0, 0) m -> E 114.30481 (543.048, 0, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 7149 S 133.05069138938 (600, 130.507, 0) m -> E 133.05072938938 (600, 130.507, 0) m
+T InfrastructureShowcaseA.AP2.wlan[0].radio 2 M AssocResp-OK 7169 S 133.352415512177 (450, 330, 0) m -> E 133.352457512177 (450, 330, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 7169 S 133.352416336713 (600, 133.524, 0) m -> E 133.352458336713 (600, 133.524, 0) m

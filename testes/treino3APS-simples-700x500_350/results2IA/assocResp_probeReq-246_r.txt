@@ -1,0 +1,15 @@
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 12 S 0.377984993556 (296.22, 300, 0) m -> E 0.378022993556 (296.22, 300, 0) m
+T InfrastructureShowcaseA.AP2.wlan[0].radio 2 M AssocResp-OK 40 S 0.680309056702 (525, 375, 0) m -> E 0.680351056702 (525, 375, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 40 S 0.680309869379 (293.197, 300, 0) m -> E 0.680351869379 (293.197, 300, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 107 S 1.596382852992 (284.036, 300, 0) m -> E 1.596420852992 (284.036, 300, 0) m
+T InfrastructureShowcaseA.AP3.wlan[0].radio 1 M AssocResp-OK 131 S 1.899246381435 (350, 100, 0) m -> E 1.899288381435 (350, 100, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 131 S 1.899247087142 (281.008, 300, 0) m -> E 1.899289087142 (281.008, 300, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 719 S 10.197658332212 (200, 298.023, 0) m -> E 10.197696332212 (200, 298.023, 0) m
+T InfrastructureShowcaseA.AP1.wlan[0].radio 3 M AssocResp-OK 745 S 10.499659729848 (175, 375, 0) m -> E 10.499701729848 (175, 375, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 745 S 10.499660009415 (200, 295.003, 0) m -> E 10.499702009415 (200, 295.003, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 1953 S 27.61564647048 (200, 123.844, 0) m -> E 27.61568447048 (200, 123.844, 0) m
+T InfrastructureShowcaseA.AP3.wlan[0].radio 1 M AssocResp-OK 1975 S 27.918088996226 (350, 100, 0) m -> E 27.918130996226 (350, 100, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 1975 S 27.918089501368 (200, 120.819, 0) m -> E 27.918131501368 (200, 120.819, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 6899 S 98.197658332187 (581.977, 200, 0) m -> E 98.197696332187 (581.977, 200, 0) m
+T InfrastructureShowcaseA.AP2.wlan[0].radio 2 M AssocResp-OK 6921 S 98.500861417597 (525, 375, 0) m -> E 98.500903417597 (525, 375, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 6921 S 98.5008620347 (585.009, 200, 0) m -> E 98.5009040347 (585.009, 200, 0) m

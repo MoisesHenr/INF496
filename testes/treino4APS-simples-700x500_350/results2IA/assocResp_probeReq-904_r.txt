@@ -1,0 +1,15 @@
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 4 S 0.119881663029 (698.801, 300, 0) m -> E 0.119919663029 (698.801, 300, 0) m
+T InfrastructureShowcaseA.AP4.wlan[0].radio 1 M AssocResp-OK 29 S 0.422565201457 (625, 100, 0) m -> E 0.422607201457 (625, 100, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 29 S 0.422565909124 (695.774, 300, 0) m -> E 0.422607909124 (695.774, 300, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 4956 S 61.904378517504 (500, 319.044, 0) m -> E 61.904416517504 (500, 319.044, 0) m
+T InfrastructureShowcaseA.AP2.wlan[0].radio 3 M AssocResp-OK 4981 S 62.207319732066 (450, 375, 0) m -> E 62.207361732066 (450, 375, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 4981 S 62.207319974933 (500, 322.073, 0) m -> E 62.207361974933 (500, 322.073, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 10188 S 127.229397758903 (400, 127.706, 0) m -> E 127.229435758903 (400, 127.706, 0) m
+T InfrastructureShowcaseA.AP4.wlan[0].radio 1 M AssocResp-OK 10219 S 127.532341534034 (625, 100, 0) m -> E 127.532383534034 (625, 100, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 10219 S 127.532342289053 (400, 124.677, 0) m -> E 127.532384289053 (400, 124.677, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 21045 S 262.704378518277 (472.956, 300, 0) m -> E 262.704416518277 (472.956, 300, 0) m
+T InfrastructureShowcaseA.AP2.wlan[0].radio 3 M AssocResp-OK 21070 S 263.006899812615 (450, 375, 0) m -> E 263.006941812615 (450, 375, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 21070 S 263.006900071471 (469.931, 300, 0) m -> E 263.006942071471 (469.931, 300, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 27789 S 346.929397761003 (230.706, 500, 0) m -> E 346.929435761003 (230.706, 500, 0) m
+T InfrastructureShowcaseA.AP1.wlan[0].radio 4 M AssocResp-OK 27814 S 347.231880741281 (100, 375, 0) m -> E 347.231922741281 (100, 375, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 27814 S 347.231881337302 (227.681, 500, 0) m -> E 347.231923337302 (227.681, 500, 0) m

@@ -1,0 +1,15 @@
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 8 S 0.15426802251 (1.54268, 0, 0) m -> E 0.15430602251 (1.54268, 0, 0) m
+T InfrastructureShowcaseA.AP4.wlan[0].radio 4 M AssocResp-OK 36 S 0.455930987818 (100, 150, 0) m -> E 0.455972987818 (100, 150, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 36 S 0.455931580858 (4.55931, 0, 0) m -> E 0.455973580858 (4.55931, 0, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 2725 S 30.249177308156 (302.492, 0, 0) m -> E 30.249215308156 (302.492, 0, 0) m
+T InfrastructureShowcaseA.AP3.wlan[0].radio 3 M AssocResp-OK 2753 S 30.551440781874 (450, 150, 0) m -> E 30.551482781874 (450, 150, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 2753 S 30.551441476585 (305.514, 0, 0) m -> E 30.551483476585 (305.514, 0, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 17988 S 199.773528231484 (400, 397.735, 0) m -> E 199.773566231484 (400, 397.735, 0) m
+T InfrastructureShowcaseA.AP2.wlan[0].radio 2 M AssocResp-OK 18018 S 200.07529206354 (625, 450, 0) m -> E 200.07533406354 (625, 450, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 18018 S 200.075292829916 (400.753, 400, 0) m -> E 200.075334829916 (400.753, 400, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 20446 S 226.947488067491 (500, 230.525, 0) m -> E 226.947526067491 (500, 230.525, 0) m
+T InfrastructureShowcaseA.AP3.wlan[0].radio 3 M AssocResp-OK 20474 S 227.249109605975 (450, 150, 0) m -> E 227.249151605975 (450, 150, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 20474 S 227.249109913644 (500, 227.509, 0) m -> E 227.249151913644 (500, 227.509, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 22506 S 249.773528231484 (697.735, 200, 0) m -> E 249.773566231484 (697.735, 200, 0) m
+T InfrastructureShowcaseA.AP5.wlan[0].radio 5 M AssocResp-OK 22534 S 250.075130085114 (800, 150, 0) m -> E 250.075172085114 (800, 150, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 22534 S 250.07513045581 (700.751, 200, 0) m -> E 250.07517245581 (700.751, 200, 0) m

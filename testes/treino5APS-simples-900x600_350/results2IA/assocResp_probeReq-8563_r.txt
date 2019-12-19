@@ -1,0 +1,15 @@
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 10 S 0.193870114 (301.939, 200, 0) m -> E 0.193908114 (301.939, 200, 0) m
+T InfrastructureShowcaseA.AP4.wlan[0].radio 4 M AssocResp-OK 44 S 0.495633632415 (100, 150, 0) m -> E 0.495675632415 (100, 150, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 44 S 0.495634336125 (304.956, 200, 0) m -> E 0.495676336125 (304.956, 200, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 438 S 4.796316025278 (347.963, 200, 0) m -> E 4.796354025278 (347.963, 200, 0) m
+T InfrastructureShowcaseA.AP3.wlan[0].radio 3 M AssocResp-OK 466 S 5.09817787551 (450, 150, 0) m -> E 5.09821987551 (450, 150, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 466 S 5.09817824552 (350.982, 200, 0) m -> E 5.09822024552 (350.982, 200, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 2692 S 29.727741707892 (400, 397.277, 0) m -> E 29.727779707892 (400, 397.277, 0) m
+T InfrastructureShowcaseA.AP2.wlan[0].radio 2 M AssocResp-OK 2722 S 30.030345547325 (625, 450, 0) m -> E 30.030387547325 (625, 450, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 2722 S 30.030346315164 (400.303, 400, 0) m -> E 30.030388315164 (400.303, 400, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 5142 S 56.89761119923 (500, 231.024, 0) m -> E 56.89764919923 (500, 231.024, 0) m
+T InfrastructureShowcaseA.AP3.wlan[0].radio 3 M AssocResp-OK 5170 S 57.198978491421 (450, 150, 0) m -> E 57.199020491421 (450, 150, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 5170 S 57.198978800496 (500, 228.01, 0) m -> E 57.199020800496 (500, 228.01, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 8602 S 95.227741709069 (652.277, 0, 0) m -> E 95.227779709069 (652.277, 0, 0) m
+T InfrastructureShowcaseA.AP5.wlan[0].radio 5 M AssocResp-OK 8630 S 95.530145185277 (800, 150, 0) m -> E 95.530187185277 (800, 150, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 8630 S 95.530145880481 (655.301, 0, 0) m -> E 95.530187880481 (655.301, 0, 0) m

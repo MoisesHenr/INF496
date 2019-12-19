@@ -1,0 +1,7 @@
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 10 S 0.346488997177 (700, 203.465, 0) m -> E 0.346526997177 (700, 203.465, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 61 S 1.846488997177 (700, 218.465, 0) m -> E 1.846526997177 (700, 218.465, 0) m
+T InfrastructureShowcaseA.AP2.wlan[0].radio 2 M AssocResp-OK 81 S 2.149173127937 (475, 325, 0) m -> E 2.149215127937 (475, 325, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 81 S 2.149173954065 (700, 221.492, 0) m -> E 2.149215954065 (700, 221.492, 0) m
+T InfrastructureShowcaseA.host1.wlan[0].radio 0 M ProbeReq 13276 S 190.535793015015 (294.642, 500, 0) m -> E 190.535831015015 (294.642, 500, 0) m
+T InfrastructureShowcaseA.AP1.wlan[0].radio 3 M AssocResp-OK 13298 S 190.837977045202 (125, 325, 0) m -> E 190.838019045202 (125, 325, 0) m
+R InfrastructureShowcaseA.host1.wlan[0].radio 0 M AssocResp-OK 13298 S 190.837977851208 (291.62, 500, 0) m -> E 190.838019851208 (291.62, 500, 0) m
